@@ -57,6 +57,20 @@ English still has case — but only on pronouns, which is why Bernardo already u
 | `4_Golden_Rules.md` | Rules auto-promoted at 3+ hits | Automatically |
 | `5_Review_Queue.md` | Generated. What to drill next session | End of session |
 | `6_About_Bernardo.md` | Real facts learned in conversation | **Chat mode only** |
+| `7_Techniques.md` | Invented teaching devices that worked | When one lands |
+| `SKILL.md` | A copy of the skill, for version control | On every skill change |
+
+## The three layers
+
+A contract for the tutor, **not a visible format**. Bernardo reads one continuous analysis per sentence — never a "standard part" followed by a "creative part".
+
+| Layer | What it means |
+|:--|:--|
+| **FLOOR** | Guaranteed every time: every error gets a full block, case map on every sentence, every German sentence corrected, vault updated. Nothing overrides this |
+| **DEFAULT** | The normal shape — protocols, nine sections, mode detection |
+| **OPEN** | Standing licence to invent. The skill is the minimum, not the maximum. Never withhold something useful because it wasn't listed |
+
+The open layer only fires **when it helps that specific sentence**. Creativity is not decoration. Anything that works gets recorded in [[7_Techniques]] so it accumulates instead of evaporating.
 
 ## The three modes
 

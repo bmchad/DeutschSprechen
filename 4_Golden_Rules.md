@@ -60,6 +60,24 @@ It is **not** a continuous marker — German has none. `Ich lese` already covers
 
 ---
 
+### `sein` Takes No Prisoners
+
+**Promoted:** 2026-09-21 · **Trigger:** 3 hits, 100% rate
+
+**After `sein`, everything stays Nominativ.** `sein` doesn't *do* anything to an object — it puts an equals sign between two things, and both sides keep the subject case. Same for `werden` (become) and `bleiben` (stay).
+
+- ❌ *Es ist immer **einen** Gelegenheit* → ✅ *Es ist immer **eine** Gelegenheit*
+- ❌ *was **einen** repair turn ist* → ✅ *was **ein** repair turn ist*
+- ❌ *KI wird **einen** stück sein* → ✅ *KI wird **ein** Teil sein*
+
+**English bridge:** the old strict *"It is **he**"* — not *"It is him"*. English went casual; German kept the rule.
+
+**Self-check:** see `ist` / `war` / `sind` / `wird` / `bleibt`? Then **no `-n`**. Ever.
+
+**Why it keeps happening:** he applies the accusative rule *correctly* — `einen` genuinely is masculine Akkusativ. The problem is that `sein` never licenses an accusative in the first place.
+
+---
+
 ## Retired
 
 Rules that survived 10 sessions with zero new hits.

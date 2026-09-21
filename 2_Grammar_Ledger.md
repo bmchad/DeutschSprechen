@@ -65,6 +65,8 @@ Split by *cause*, because each cause needs a different drill. "You made a case m
 
 | Rule | T | Hits | Rec | Att | Rate | Streak | St | Last | My examples | The fix |
 |:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--|:--|:--|
+| **`sein` / `werden` / `bleiben` take Nominativ** 🏆 | 1 | 3 | 3 | 3 | 100% | 0 | 🔴 | 2026-09-21 | *einen stück sein*, *ist einen Gelegenheit*, *was einen repair turn ist* | Promoted — see [[4_Golden_Rules]]. No `-n` after a linking verb, ever |
+| Masculine Akkusativ `-n` | 1 | 2 | 2 | 3 | 67% | 0 | 🔴 | 2026-09-21 | *meine Letzte Satz*, *mein Satz*, *das Claude skill* | **Only masculine changes in the Akkusativ.** `der→den`, `ein→einen`, `mein→meinen` |
 | Time expressions take bare Akkusativ | 2 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-09-21 | *an jedem tag* → **jeden Tag** | No preposition. `jeden Tag`, `letzte Woche`, `nächstes Jahr` |
 
 ### 1e. Gender-caused (right case chosen, wrong article because gender was wrong)
@@ -134,7 +136,7 @@ English prepositions almost never map 1:1, and the German preposition drags its 
 
 | Rule | T | Hits | Rec | Att | Rate | Streak | St | Last | The fix |
 |:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--|:--|
-| **Verb-final in subordinate clauses** | 1 | 2 | 2 | 2 | ? | 0 | 🔴 | 2026-09-21 | After `dass` / `weil` / `wenn` / `ob` **and in relative clauses**, the conjugated verb goes last. *dass manchmal es gibt* → **dass sie manchmal … gibt**; *die online share sein* → **die sie online teilen** |
+| **Verb-final in subordinate clauses** | 1 | 7 | 7 | 8 | 88% | **1** | 🟡 | 2026-09-21 | After `dass` / `weil` / `wenn` / `ob` **and in relative clauses**, the conjugated verb goes last. *dass manchmal es gibt* → **dass sie manchmal … gibt**; *die online share sein* → **die sie online teilen** |
 | `zu`-infinitive placement | 1 | 3 | 3 | 3 | ? | 0 | 🔴 | 2026-09-21 | `zu` sits immediately before the final infinitive. Purpose takes **`um` … `zu`**. *zu fotos enhance* → **um Fotos zu verbessern** |
 | Negation placement | 2 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-09-21 | `nicht` goes **before** what it negates. *nur Vorteile nicht* → **nicht nur Vorteile** |
 | Perfekt participle placement | 1 | 0 | 0 | 0 | — | 0 | 🔴 | — | `haben`/`sein` second, participle at the very end |
