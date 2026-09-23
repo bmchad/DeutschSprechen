@@ -107,6 +107,7 @@ English prepositions almost never map 1:1, and the German preposition drags its 
 
 | Looks like | Actually means | "That word" in German | T | Hits | Att | St | Last |
 |:--|:--|:--|:-:|:-:|:-:|:-:|:--|
+| **pasta** 🇵🇹 | folder → **der Ordner, die Ordner** | ⚠️ EN "paste" = `einfügen` — a **three-way trap**: PT *pasta* → EN "paste" → wrong German. His only Portuguese-source false friend so far | 1 | 2 | 2 | 🔴 | 2026-09-23 |
 | bekommen | to receive | werden (to become) | 1 | | | | |
 | also | so / therefore | auch (also) | 1 | | | | |
 | Gift | poison | Geschenk (gift) | 1 | | | | |

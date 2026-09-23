@@ -52,6 +52,8 @@ Record the **case it governs** and any fixed preposition — that is where Engli
 | to help | **helfen** | **Dativ** | 2 | 2 | 0 | 🔴 | 2026-09-21 | `Ich helfe **dir**`. Plural adds `-n`: **Arbeitern** |
 | to improve | **verbessern** | Akk | **2** | 2 | 0 | 🔴 | 2026-09-21 | **Missed twice** — `(enhance)` in the AI text, `(improve)` again today. `ver-` + `besser` = "to make better". Flagged by him as a word he keeps forgetting |
 | to keep track of | **verfolgen** | Akk | 1 | 1 | 0 | 🔴 | 2026-09-21 | Literally "to follow along". Simpler A2 options: **notieren** (note down), **sammeln** (collect). Avoid `den Überblick behalten über` — B1 |
+| to open | **öffnen** / **aufmachen** | Akk | 1 | 1 | 0 | 🔴 | 2026-09-23 | `öffnen` neutral · `aufmachen` colloquial, separable → *ich mache es **auf*** |
+| to run out (supply) | **ausgehen** | — | 1 | 1 | 0 | 🔴 | 2026-09-23 | Separable → *meine Tokens gehen **aus***. ⚠️ Not `auslaufen`, which is for liquid leaking or a contract expiring |
 | to share | **teilen** | Akk | 1 | 1 | 0 | 🔴 | 2026-09-21 | Was left as `(share)` |
 | to double-check | **doppelt überprüfen** | Akk | 1 | 1 | 0 | 🔴 | 2026-09-21 | Invented *zweilich-gecheckt* |
 | to worry about | **sich sorgen um** | **Akk** | 1 | 1 | 0 | 🔴 | 2026-09-21 | Reflexive **and** `um`, not `über`. English misleads twice |

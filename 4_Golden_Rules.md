@@ -78,6 +78,26 @@ It is **not** a continuous marker — German has none. `Ich lese` already covers
 
 ---
 
+### `So` Is Not "So"
+
+**Promoted:** 2026-09-23 · **Trigger:** 4 hits, 100% rate
+
+English **"so"** (therefore) is German **`also`**. German **`also`** never means English "also" — that's **`auch`**.
+
+- ❌ *So, ich habe darüber nachgedacht* → ✅ ***Also**, ich habe darüber nachgedacht*
+- ❌ *So, in den Skill…* → ✅ ***Also**, im Skill…*
+
+| You mean | German |
+|:--|:--|
+| so, therefore | **also** |
+| also, too | **auch** |
+
+**No English bridge exists** — this is a straight swap that has to be memorised. The two words point at each other across the languages.
+
+**And it carries a second rule:** `Also` almost always sits at the front of the sentence, which means **the verb comes next**. Every time you fix this word, you also have to invert. Two Golden Rules in one.
+
+---
+
 ## Retired
 
 Rules that survived 10 sessions with zero new hits.
