@@ -1,6 +1,6 @@
 ---
 tags: [ledger, vocab]
-updated: 2026-09-21
+updated: 2026-09-26
 ---
 
 # Vocab & Nuance
@@ -40,6 +40,19 @@ Maintained by the tutor. Feeds [[5_Review_Queue]] and the §8 example sentences.
 | piece | **das Stück, die Stücke** | 0 | 1 | 0 | 🔴 | 2026-09-21 | Physical, cuttable, countable. Different gender from `der Teil` — logged for diagnosis |
 | job / position | **der Arbeitsplatz, die Arbeitsplätze** | 1 | 1 | 0 | 🔴 | 2026-09-21 | Wrote *den Arbeiten*. `die Arbeit` = work in general |
 | word | **das Wort, die Wörter** | 1 | 1 | 0 | 🔴 | 2026-09-21 | `Wörter` = individual words · `Worte` = utterances |
+| advantage | **der Vorteil, die Vorteile** | 1 | 1 | 0 | 🔴 | 2026-09-23 | Was left as `(advantages)`. `vor` + `Teil` = "part in front" |
+| disadvantage | **der Nachteil, die Nachteile** | 1 | 1 | 0 | 🔴 | 2026-09-23 | Was left as `(disadvantages)`. `nach` + `Teil` = "part behind" |
+| workday | **der Arbeitstag, die Arbeitstage** | 1 | 1 | 0 | 🔴 | 2026-09-23 | Wrote *dein Arbeittag*. Note the linking `-s-`. ⚠️ Probably believed neuter — see the Gender Log |
+| overtime | **die Überstunde, die Überstunden** | 1 | 1 | 0 | 🔴 | 2026-09-23 | Wrote *überzeit*. Idiom: *Überstunden machen* |
+| colleague | **der Kollege, die Kollegen** | 1 | 1 | 0 | 🔴 | 2026-09-23 | Wrote *Arbeitfreunds*. Weak masculine noun (`n`-Deklination) |
+| personal life | **das Privatleben** (no pl.) | 1 | 1 | 0 | 🔴 | 2026-09-23 | Wrote *Personal-Leben*. `Personal` in German = company staff/HR! |
+| work-life balance | **die Work-Life-Balance** (no pl.) | 1 | 1 | 0 | 🔴 | 2026-09-23 | Wrote *ein gut arbeit-leben (balance)*. A compound takes the gender of its **last** part: **die** Balance → *eine gute Work-Life-Balance* |
+| exercise (the activity) | **der Sport** (no pl.) | 1 | 1 | 0 | 🔴 | 2026-09-23 | Was left as `(Exercise)`. Verb: *Sport machen* (everyday) / *Sport treiben*. ⚠️ `die Übung` = a drill or school exercise, not a workout |
+| working hours | **die Arbeitszeit, die Arbeitszeiten** | 1 | 1 | 0 | 🔴 | 2026-09-23 | Wrote *Arbeit-Stunden*. Linking `-s-` again, as in *Arbeitstag*. `die Stunde` = a 60-minute hour, not a schedule |
+| end of the workday | **der Feierabend, die Feierabende** | 1 | 1 | 0 | 🔴 | 2026-09-23 | Wrote *nach das Arbeitad endet*. `Feier` (celebration) + `Abend` (evening) = the free time after work, whatever the hour |
+| electrical engineering | **die Elektrotechnik** (no pl.) · the person: **der Ingenieur, die Ingenieure** | 1 | 1 | 0 | 🔴 | 2026-09-26 | Wrote *Eletrotelnich Engeneur* — the person, not the field: *Ich studiere Elektrotechnik*. A job takes no article: *Ich werde Ingenieur* |
+| machine | **die Maschine, die Maschinen** | 2 | 2 | 0 | 🔴 | 2026-09-26 | Wrote *Machines* ×2 — English spelling and `-s`. Feminine in `-e` → plural `-n`, almost always |
+| thing | **das Ding, die Dinge** | 3 | 3 | 0 | 🔴 | 2026-09-26 | Wrote *dings* ×3 — English `-s`. Dat. pl.: *mit einfachen Ding**en***. ⚠️ Colloquial `das Dings` = "thingy", a singular |
 
 ---
 
@@ -58,6 +71,16 @@ Record the **case it governs** and any fixed preposition — that is where Engli
 | to double-check | **doppelt überprüfen** | Akk | 1 | 1 | 0 | 🔴 | 2026-09-21 | Invented *zweilich-gecheckt* |
 | to worry about | **sich sorgen um** | **Akk** | 1 | 1 | 0 | 🔴 | 2026-09-21 | Reflexive **and** `um`, not `über`. English misleads twice |
 | to complete | **erledigen** | Akk | 1 | 1 | 0 | 🔴 | 2026-09-21 | Wrote *vervollständigen* (= fill in what's missing) |
+| to commute | **pendeln** | — | 1 | 1 | 0 | 🔴 | 2026-09-23 | Regular verb: *ich pendle / du pendelst* |
+| to turn off | **ausschalten / ausmachen** | Akk | 1 | 1 | 0 | 🔴 | 2026-09-23 | Wrote *aufmachen* (open). Separable: *ich schalte den Computer aus* |
+| to meet friends | **Freunde treffen** | Akk | 1 | 1 | 0 | 🔴 | 2026-09-23 | Wrote *freunds gucken* (watch friends). Irregular: *er trifft* |
+| to plan | **planen** | Akk | 1 | 1 | 0 | 🔴 | 2026-09-23 | Was left as `(plan)` — just the English word + `-en`. Noun: **der Plan, die Pläne** (umlaut plural) |
+| to miss (someone) | **vermissen** | Akk | 1 | 1 | 0 | 🔴 | 2026-09-23 | Was left as `(miss)`. ⚠️ Missing a bus or train is **verpassen** |
+| to follow (rules) | **befolgen** | Akk | 1 | 1 | 0 | 🔴 | 2026-09-23 | Was left as `(follow)`. **B1+** — A2 route: *Mit diesen Regeln kann …* (`mit` + Dat. pl.). ⚠️ Plain `folgen` (follow a person) takes **Dativ**: *Ich folge dir* |
+| to combine | **verbinden** | Akk · `mit` + Dat | 1 | 1 | 0 | 🔴 | 2026-09-23 | Was left as `(combine)`. `ver-` + `binden` (to bind, tie) = to tie together |
+| to clear one's head | **den Kopf freibekommen** | Akk | 1 | 1 | 0 | 🔴 | 2026-09-23 | Wrote *zu einige ein Manns kopf*. **B1+** idiom — A2 route: *Das hilft gegen Stress* (`gegen` + Akk). Body parts take the article, not a possessive: **den** Kopf |
+| to replicate / copy | **kopieren** / **nachmachen** | Akk | 3 | 3 | 0 | 🔴 | 2026-09-26 | Left as `(replicate)` ×3. `kopieren` = English *copy* · native `nachmachen` is separable: *KI macht das **nach*** |
+| to exist | **existieren** / **es gibt** | — · `es gibt` + **Akk** | 1 | 1 | 0 | 🔴 | 2026-09-26 | Left as `(exist)`. `existieren` takes no object · native **es gibt** + Akk: *Es gibt **einen** Grund* |
 | to use | **verwenden / benutzen** | Akk | 0 | 3 | 0 | 🟡 | 2026-09-21 | Got this right every time |
 
 ---
@@ -67,6 +90,13 @@ Record the **case it governs** and any fixed preposition — that is where Engli
 | English | German | Miss | Att | Streak | St | Last | Note |
 |:--|:--|:-:|:-:|:-:|:-:|:--|:--|
 | probably / likely | **wahrscheinlich** | 1 | 1 | 0 | 🔴 | 2026-09-21 | Requested — not yet memorised. `wahr` (true) + `scheinen` (to seem) + `-lich` = "truth-seeming". Also an adjective: *die wahrscheinliche Ursache*. Noun: `die Wahrscheinlichkeit`. **Triggers V2 when fronted** — *Wahrscheinlich **wird** KI…* |
+| flexible | **flexibel** | 1 | 1 | 0 | 🔴 | 2026-09-23 | Was left as `(flexibility)` → *flexibler planen*. **B1** — A2 route: *frei planen*. Drops its `e` when it grows: *flexib**ler***, *flexible* |
+| however | **jedoch** | 1 | 1 | 0 | 🔴 | 2026-09-23 | Wrote *aber (however)*. **B1** — A2 route: the `aber` already written, in the same slot: *hat **aber** auch Nachteile* = *hat **jedoch** auch Nachteile* |
+| fixed / set | **fest** | 1 | 1 | 0 | 🔴 | 2026-09-23 | Was left as `(fixed)` → *feste Arbeitszeiten*. English bridge: *hold fast*, *steadfast* |
+| in the morning | **morgens** / **am Morgen** | 1 | 1 | 0 | 🔴 | 2026-09-23 | Wrote *in den Morgen* (= into the morning). `-s` = every time: *morgens, abends, montags* · one morning: **am** Morgen (`an` + `dem`) |
+| longer (time) | **länger** | 1 | 1 | 0 | 🔴 | 2026-09-23 | Wrote *mehr schlafen* → **länger schlafen**. Time → `länger` (from `lang`) · amount → `mehr` |
+| something else | **etwas anderes** | 1 | 1 | 0 | 🔴 | 2026-09-23 | Wrote *etwa anders*. ⚠️ `etwa` = approximately (see *some vs. approx*) · `anders` = differently |
+| difficult | **schwer** / **schwierig** | 1 | 1 | 0 | 🔴 | 2026-09-26 | Left as `(dificult)` after a guess of *schlecht* (= bad). `schwer` ↔ `leicht` = difficult ↔ easy, and also heavy ↔ light. Superlative: **am schwersten** / **die schwierigsten** |
 
 ---
 
@@ -85,6 +115,14 @@ Two German words, one English word, and the choice matters.
 | **for example** | `zum Beispiel` (z. B.) | **Never `für Beispiel`.** Fixed phrase, and a hidden Dativ: `zu` + `dem Beispiel` → **zum**. `zu` always takes Dativ, so every `z. B.` you write is a case you got right | 1 | 1 | 🔴 | 2026-09-21 |
 | **part / piece** | `der Teil` / `das Stück` | **der Teil, die Teile** = a conceptual division of a whole — *ein Teil unseres Lebens*, *der erste Teil*, *zum Teil* (partly). **das Stück, die Stücke** = a physical piece you could cut or hold — *ein Stück Kuchen*, *ein Stück Papier*; also a play (*Theaterstück*) and a counting unit (*5 Stück*). **Test:** could you pick it up? → `Stück`. Note the genders differ: **der** Teil vs **das** Stück | 1 | 1 | 🔴 | 2026-09-21 |
 | the future | `in Zukunft` / `in der Zukunft` | **in Zukunft** = from now on, a change starting now · **in der Zukunft** = at some unspecified later point | 1 | 1 | 🔴 | 2026-09-21 |
+| **open vs. turn off** | `aufmachen` / `ausschalten` (`ausmachen`) | **aufmachen** = open a physical object (door, box, window). **ausschalten** (or **ausmachen**) = turn off an electrical device. Saying *den Computer aufmachen* means physically taking the hardware apart | 1 | 1 | 🔴 | 2026-09-23 |
+| **some vs. approx** | `manche` / `etwa` | **manche** (or *einige*) = some (people, things). **etwa** = approximately, roughly (*etwa zehn Minuten*). English "some" can mean both; German separates them | 1 | 1 | 🔴 | 2026-09-23 |
+| **home: motion vs. location** | `nach Hause` / `zu Hause` / `von zu Hause` | **nach Hause** = motion towards home (*wohin?*). **zu Hause** = static position at home (*wo?*). *Ich arbeite zu Hause*. **von zu Hause (aus)** = from home: *Ich arbeite von zu Hause aus*. ⚠️ Never *aus Hause* — `aus` = out of a building (*aus dem Haus*) | 5 | 5 | 🔴 | 2026-09-23 |
+| **to mean** | `meinen` / `bedeuten` / `heißen` | **meinen** = a *person* means or thinks: *Was meinst du?* · **bedeuten** = a *word or fact* means: *Das bedeutet …*, *Was bedeutet das Wort?* · **das heißt** = that is, i.e. (*d. h.*). **Test:** a person as the subject → `meinen`; anything else → `bedeuten`. (S3's *das meinst* meant "the most", not "that means" — see **the most**) | 1 | 1 | 🔴 | 2026-09-23 |
+| **the most** | `am meisten` / `die meisten` / **-sten** | **am meisten** = the most, with a verb: *Ich arbeite am meisten* · **die meisten** = most, before a plural noun: *die meisten Menschen* · **the most + adjective** has no "most" in German — the adjective itself takes **-sten**: *die schwierigsten Dinge*, *am schwersten*. ⚠️ **meist** (most) vs **meinst** (you mean) — one letter apart. Wrote *das meinst schlecht (dificult)* for "the most difficult" | 1 | 1 | 🔴 | 2026-09-26 |
+| **ready** | `bereit` / `fertig` | **bereit** (**B1**) = ready *before* something starts: *Bist du bereit?* · **fertig** = done, *after* it ends: *Ich bin fertig* — even *Das Essen ist fertig* (the cooking has ended). A2 route for *Are you ready?*: *Können wir anfangen?* | 1 | 1 | 🔴 | 2026-09-26 |
+| **in the world** | `auf der Welt` / `der Welt` / `um die Welt` | **auf der Welt** ✅A2 = in the world — German says *on*: *der beste Ort auf der Welt* (`auf` + Dat, static) · **der Welt** = of the world, Genitiv: *der beste Ort der Welt* · **um die Welt** = *around* the world: *eine Reise um die Welt*. Wrote *um die Welt* — `um` + Akk was right, only the meaning was off | 1 | 1 | 🔴 | 2026-09-26 |
+| **lie vs. lay** | `liegen` / `legen` | **liegen** = to lie, be lying somewhere — static, *wo?* → Dativ: *Der Laptop liegt auf **dem** Tisch* · **legen** = to lay, put down — motion, *wohin?* → Akk: *Ich lege den Laptop auf **den** Tisch*. Same logic as the two-way prepositions. English "is sitting on the table" is just *liegt* — no continuous. Wrote *ist über das Tisch … legen* | 1 | 1 | 🔴 | 2026-09-23 |
 
 ---
 
@@ -94,4 +132,8 @@ Not drilled — recorded so case errors can be diagnosed correctly. See [[0_Star
 
 | Noun | Correct | What I assumed | Times | Last |
 |:--|:--|:--|:-:|:--|
-| | | | | |
+| computer | **der Computer, die Computer** | *das* — wrote *Wen das Komputer*. So *dein Komputer* as an object, in the same text, is correct **neuter** Akk: a gender slip, not a missing `-n` | 2 | 2026-09-23 |
+| workday | **der Arbeitstag, die Arbeitstage** | probably *das* — wrote *nach das Arbeitad*. If so, *dein Arbeittag* as an object is also correct neuter Akk — a gender slip, not a case error. Unconfirmed | 1 | 2026-09-23 |
+| table | **der Tisch, die Tische** | *das* — wrote *über das Tisch* | 1 | 2026-09-23 |
+| work-life balance | **die Work-Life-Balance** (no pl.) | masc./neut. — wrote *ein gut arbeit-leben* | 1 | 2026-09-23 |
+| place | **der Ort, die Orte** | *die* — wrote *die besser Ort* | 1 | 2026-09-26 |

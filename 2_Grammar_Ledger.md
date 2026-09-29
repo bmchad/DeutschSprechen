@@ -1,6 +1,6 @@
 ---
 tags: [ledger, grammar]
-updated: 2026-09-21
+updated: 2026-09-26
 ---
 
 # Grammar Ledger
@@ -50,7 +50,9 @@ Split by *cause*, because each cause needs a different drill. "You made a case m
 
 | Rule | T | Hits | Rec | Att | Rate | Streak | St | Last | My examples | The fix |
 |:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--|:--|:--|
-| `mit` takes Dativ | 1 | 2 | 2 | 2 | ? | 0 | 🔴 | 2026-09-21 | *mit den Fähigkeit* → **der**; *mit viele Fälle* → **vielen** | `mit` is never Akkusativ. Feminine → **der**. Plural → **-en** on the determiner **and** `-n` on the noun |
+| `mit` takes Dativ | 1 | 2 | 2 | 3 | 67% | 1 | 🔴 | 2026-09-21 | *mit den Fähigkeit* → **der**; *mit viele Fälle* → **vielen** | `mit` is never Akkusativ. Feminine → **der**. Plural → **-en** on the determiner **and** `-n` on the noun. Got `mit seinen` right (S2) |
+| `nach` takes Dativ | 1 | 2 | 2 | 2 | ? | 0 | 🔴 | 2026-09-23 | *nach das Arbeitad* → **nach dem Arbeitstag**; *Nach Arbeiten* → **Nach der Arbeit** | Always Dativ: **nach dem**, **nach der**. Before a whole clause the word is **nachdem** |
+| `zu` vs `nach` for destinations | 2 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-09-23 | *nazh Arbeiten* → **zur Arbeit** | **zu** for places and activities (**zur Arbeit**, **zur Schule**). **nach** only for cities, countries and **nach Hause** |
 
 ### 1c. Wechselpräpositionen (two-way) — *meaning-changing, always Tier 1*
 
@@ -59,15 +61,17 @@ Split by *cause*, because each cause needs a different drill. "You made a case m
 
 | Rule | T | Hits | Rec | Att | Rate | Streak | St | Last | My examples | The fix |
 |:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--|:--|:--|
-| `in` = static location → Dativ | 1 | 2 | 2 | 3 | ? | 1 | 🔴 | 2026-09-21 | *in viele anders Orten* → **in vielen**; *An schule* → **In der Schule** | No movement → Dativ. `in **der** Schule`, `in **vielen** Bereichen`. Got `in Unternehmen` right |
+| **`in` = static location → Dativ** 🏆 | 1 | 3 | 3 | 4 | 75% | 0 | 🔴 | 2026-09-23 | *in viele anders Orten* → **in vielen**; *An schule* → **In der Schule**; *ins Büro* → **im Büro** | Promoted — see [[4_Golden_Rules]]. No movement → Dativ. `in **der** Schule`, `in **vielen** Bereichen`, `im Büro`. Got `in Unternehmen` right |
+| `auf` = static → Dativ | 1 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-09-23 | *über das Tisch* → **auf dem Tisch** | Lying on a surface = **auf** + Dativ (*wo?*). `über` = above it, not touching |
 
 ### 1d. Object roles (Nom subject / Akk direct / Dativ indirect)
 
 | Rule | T | Hits | Rec | Att | Rate | Streak | St | Last | My examples | The fix |
 |:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--|:--|:--|
 | **`sein` / `werden` / `bleiben` take Nominativ** 🏆 | 1 | 3 | 3 | 3 | 100% | 0 | 🔴 | 2026-09-21 | *einen stück sein*, *ist einen Gelegenheit*, *was einen repair turn ist* | Promoted — see [[4_Golden_Rules]]. No `-n` after a linking verb, ever |
-| Masculine Akkusativ `-n` | 1 | 2 | 2 | 3 | 67% | 0 | 🔴 | 2026-09-21 | *meine Letzte Satz*, *mein Satz*, *das Claude skill* | **Only masculine changes in the Akkusativ.** `der→den`, `ein→einen`, `mein→meinen` |
-| Time expressions take bare Akkusativ | 2 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-09-21 | *an jedem tag* → **jeden Tag** | No preposition. `jeden Tag`, `letzte Woche`, `nächstes Jahr` |
+| **Masculine Akkusativ `-n`** 🏆 | 1 | 2 | 2 | 3 | 67% | 0 | 🔴 | 2026-09-21 | *meine Letzte Satz*, *mein Satz*. S2's *dein Arbeittag* and *dein Komputer* moved to 1e in S3: both nouns were believed neuter, and `dein` is right for a neuter object | Promoted — see [[4_Golden_Rules]]. **Only masculine changes in the Akkusativ.** `der→den`, `ein→einen`, `mein→meinen`. Diagnose the gender first |
+| Time expressions take bare Akkusativ | 2 | 4 | 4 | 4 | 100% | 0 | 🔴 | 2026-09-23 | *an jedem tag* → **jeden Tag**; *jedemtag*, *jedem Tag* → **jeden Tag**; *alle Tag* → **den ganzen Tag** | No preposition. `jeden Tag`, `den ganzen Tag`, `letzte Woche`, `nächstes Jahr` |
+| Pronoun as direct object → Akkusativ | 1 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-09-23 | *sieht ihr* → **sie … sieht** | "them" = **sie**, just as "him" = **ihn**. `ihr` = "you all" or "to her" |
 
 ### 1e. Gender-caused (right case chosen, wrong article because gender was wrong)
 
@@ -77,6 +81,11 @@ Not case errors. Logged here only to keep the diagnosis honest — the real reco
 |:--|:-:|:-:|:--|:--|:--|
 | die Arbeit | 1 | 1 | 2026-09-21 | *für **den** Arbeit* — masculine Akk | *für **ihre** Arbeit*. He knew "für" takes Akk; he had the gender wrong |
 | die KI | 1 | 1 | 2026-09-21 | *es ist benutzen gewesen* | **sie** wird verwendet — `die Intelligenz` is feminine |
+| der Computer | 2 | 2 | 2026-09-23 | *das Komputer* as the subject (Nominativ right), then *dein Komputer* as the object — correct Akk for the neuter gender believed | **der** Computer → **den** Computer. The second hit moved here from masculine Akk `-n` in S3 |
+| der Tisch | 1 | 1 | 2026-09-23 | *über das Tisch* — thought neuter | auf **dem** Tisch. The case was wrong too — see `auf` in 1c |
+| der Arbeitstag | 2 | 2 | 2026-09-23 | *nach das Arbeitad* — thought neuter; then *dein Arbeittag* as the object, correct for a neuter | nach **dem** Arbeitstag · **deinen** Arbeitstag. Case wrong too in the first — see `nach` in 1b. The second hit moved here from masculine Akk `-n` in S3; the neuter belief is unconfirmed |
+| die Work-Life-Balance | 1 | 1 | 2026-09-23 | *ein gut … (balance)* — Nominativ was right | **eine** gute Work-Life-Balance. The noun itself was a gap |
+| der Ort | 1 | 1 | 2026-09-26 | *die besser Ort* — Nominativ right, thought feminine | **der** beste Ort |
 
 ---
 
@@ -97,7 +106,7 @@ English prepositions almost never map 1:1, and the German preposition drags its 
 | careful **about** | vorsichtig **mit** | Dat | 2 | 1 | 1 | 1 | 0 | 🔴 | 2026-09-21 |
 | think **about** (reflect) | nachdenken **über** | Akk | 1 | 1 | 1 | 1 | 0 | 🔴 | 2026-09-21 |
 | wait **for** | warten **auf** | Akk | 1 | | | | | | |
-| think **about** | denken **an** | Akk | 1 | | | | | | |
+| think **about** | denken **an** | Akk | 1 | 1 | 1 | 1 | 0 | 🔴 | 2026-09-23 | *denkst über Arbeit* → **denkst an die Arbeit** |
 | ask **for** | bitten **um** | Akk | 1 | | | | | | |
 | depend **on** | ankommen **auf** | Akk | 2 | | | | | | |
 | be afraid **of** | Angst haben **vor** | Dat | 1 | | | | | | |
@@ -109,7 +118,7 @@ English prepositions almost never map 1:1, and the German preposition drags its 
 |:--|:--|:--|:-:|:-:|:-:|:-:|:--|
 | **pasta** 🇵🇹 | folder → **der Ordner, die Ordner** | ⚠️ EN "paste" = `einfügen` — a **three-way trap**: PT *pasta* → EN "paste" → wrong German. His only Portuguese-source false friend so far | 1 | 2 | 2 | 🔴 | 2026-09-23 |
 | bekommen | to receive | werden (to become) | 1 | | | | |
-| also | so / therefore | auch (also) | 1 | | | | |
+| **also** 🏆 | so / therefore | auch (also) | 1 | 4 | 4 | 🔴 | 2026-09-23 |
 | Gift | poison | Geschenk (gift) | 1 | | | | |
 | bald | soon | kahl (bald) | 2 | | | | |
 | Chef | boss | Koch (chef) | 2 | | | | |
@@ -123,13 +132,16 @@ English prepositions almost never map 1:1, and the German preposition drags its 
 
 | Rule | T | Hits | Rec | Att | Rate | Streak | St | Last | The fix |
 |:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--|:--|
-| **V2 after a fronted phrase** 🏆 | 1 | 6 | 6 | 6 | 100% | 0 | 🔴 | 2026-09-21 | Comma does not save you — see [[4_Golden_Rules]] |
+| **V2 after a fronted phrase** 🏆 | 1 | 15 | 15 | 17 | 88% | 0 | 🔴 | 2026-09-26 | Comma does not save you — see [[4_Golden_Rules]]. S2: 6 hits (*Deshalb*, *Darum*, *Nach Arbeiten*, *Wenn…* ×2, *aber (however), … hat*); right in *Außerdem, kannst du* (only the comma was wrong — Tier 3) and *Wenn …, kannst du*. S3: +3 (#9, #14, #17) |
 | **`gerade` as filler** 🏆 | 1 | 7 | 7 | 7 | 100% | 0 | 🔴 | 2026-09-21 | Means "right now" only — see [[4_Golden_Rules]] |
 | "which is why" → `weshalb` | 1 | 2 | 2 | 2 | ? | 0 | 🔴 | 2026-09-21 | *welche ist weil* is not German. Use `weshalb` / `deshalb` / `darum` |
-| "more and more X" → `immer` + comparative | 2 | 2 | 2 | 2 | ? | 0 | 🔴 | 2026-09-21 | *mehr und mehr wichtig* → **immer wichtiger** |
+| **"more and more X" → `immer` + comparative** 🏆 | 2 | 3 | 3 | 3 | 100% | 0 | 🔴 | 2026-09-23 | *mehr und mehr wichtig* → **immer wichtiger**; *mehr und mehr menschen* → **immer mehr Menschen**. Promoted — see [[4_Golden_Rules]] |
 | "by doing X" → `indem` | 2 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-09-21 | *von … erklären* → **indem sie … erklärt** |
 | "for example" → `zum Beispiel` | 2 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-09-21 | Wrote ***für** Beispiel* — English "for" mapped straight onto `für`. It's **`zum`** = `zu` + `dem`, a Dativ contraction. Same trap as every other EN→DE preposition guess |
-| Present continuous | 1 | 0 | 0 | 0 | — | 0 | 🔴 | — | German has none — `ich lese` covers "I read" and "I am reading" |
+| English gerund as a subject → nominalized infinitive | 2 | 3 | 3 | 4 | 75% | 0 | 🔴 | 2026-09-23 | "Working from home" → **Das Arbeiten von zu Hause**, never *zu arbeiten*. Wrote *zu arbeiten aus Hause* ×3 (title + two subjects). Bare infinitives as subjects were right: *… oder spazieren gehen* |
+| "good at -ing" → `gut` + infinitive + `können` | 1 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-09-26 | *KI wirklich gut zu (replicate)* → **KI … wirklich gut kopieren kann**. *gut zu kopieren sein* = "easy to copy" — the meaning flips |
+| "noun + to-verb" → relative clause | 2 | 2 | 2 | 2 | ? | 0 | 🔴 | 2026-09-26 | "things (easy) to copy" → **Dinge, die leicht zu kopieren sind**. Wrote *einfach dings zu (replicate)* ×2 |
+| Present continuous | 1 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-09-23 | German has none — `ich lese` covers "I read" and "I am reading". *ist … legen* ("is lying") → **liegt** |
 
 ---
 
@@ -137,11 +149,12 @@ English prepositions almost never map 1:1, and the German preposition drags its 
 
 | Rule | T | Hits | Rec | Att | Rate | Streak | St | Last | The fix |
 |:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--|:--|
-| **Verb-final in subordinate clauses** | 1 | 7 | 7 | 8 | 88% | **1** | 🟡 | 2026-09-21 | After `dass` / `weil` / `wenn` / `ob` **and in relative clauses**, the conjugated verb goes last. *dass manchmal es gibt* → **dass sie manchmal … gibt**; *die online share sein* → **die sie online teilen** |
-| `zu`-infinitive placement | 1 | 3 | 3 | 3 | ? | 0 | 🔴 | 2026-09-21 | `zu` sits immediately before the final infinitive. Purpose takes **`um` … `zu`**. *zu fotos enhance* → **um Fotos zu verbessern** |
-| Negation placement | 2 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-09-21 | `nicht` goes **before** what it negates. *nur Vorteile nicht* → **nicht nur Vorteile** |
+| **Verb-final in subordinate clauses** 🏆 | 1 | 12 | 12 | 17 | 71% | 0 | 🔴 | 2026-09-26 | Promoted — see [[4_Golden_Rules]]. After `dass` / `weil` / `wenn` / `ob` / `da` **and in relative clauses**, the conjugated verb goes last. *dass manchmal es gibt* → **dass sie manchmal … gibt**; S2: 3 hits (*weil*, *wenn*, *da*), right in *Wenn du … wöllen* and *Wenn du diese Regeln (follow)*. S3: *Da denke ich* → **Da ich denke**, *Da ich studiere …* → **… studiere**; right in a `dass` clause |
+| **`zu`-infinitive placement** 🏆 | 1 | 6 | 6 | 6 | 100% | 0 | 🔴 | 2026-09-26 | Promoted — see [[4_Golden_Rules]]. `zu` sits immediately before the final infinitive. Purpose takes **`um` … `zu`**. *zu fotos enhance* → **um Fotos zu verbessern**; *zu besser … (combine)* → **besser zu verbinden**; *zu einige … kopf* → **den Kopf freizubekommen**; *zu dass tuen* → **um das zu tun** |
+| Negation placement | 2 | 3 | 3 | 3 | 100% | 0 | 🔴 | 2026-09-26 | `nicht` goes **before** what it negates. *nur Vorteile nicht* → **nicht nur Vorteile**; *ins Büro nicht* → **nicht im Büro**; *arbeit nicht* → **nicht … arbeiten** |
+| With a modal, the infinitive goes to the end — separable verbs stay joined | 2 | 2 | 2 | 4 | 50% | 0 | 🔴 | 2026-09-23 | *kannst du spät fangen an* → **kannst du später anfangen**; *… und etwa anders macht* → **… und etwas anderes machen** (infinitive, not `macht`). Right with *(plan)* and *aufmachen* at the end |
 | Perfekt participle placement | 1 | 0 | 0 | 0 | — | 0 | 🔴 | — | `haben`/`sein` second, participle at the very end |
-| TeKaMoLo | 2 | 0 | 0 | 0 | — | 0 | 🔴 | — | **Te**mporal → **Ka**usal → **Mo**dal → **Lo**kal |
+| TeKaMoLo | 2 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-09-23 | **Te**mporal → **Ka**usal → **Mo**dal → **Lo**kal. *arbeiten aus Hause heute* → **arbeiten heute von zu Hause** |
 
 ---
 
@@ -149,10 +162,12 @@ English prepositions almost never map 1:1, and the German preposition drags its 
 
 | Noun | T | Hits | Att | Streak | St | Last | What I said | Correct plural |
 |:--|:-:|:-:|:-:|:-:|:-:|:--|:--|:--|
-| der Mensch | 1 | 3 | 3 | 0 | 🔴 | 2026-09-21 | *mensche* / *mensch* | **die Menschen** — irregular, adds `-en` |
+| der Mensch | 1 | 4 | 5 | 0 | 🔴 | 2026-09-23 | *mensche* / *mensch*; *etwa mensch* → **manche Menschen**. Got *menschen* right once (S2) | **die Menschen** — irregular, adds `-en` |
 | der Lehrer | 2 | 1 | 1 | 0 | 🔴 | 2026-09-21 | *Lehrers* | **die Lehrer** — no change. The `-s` is an English habit |
+| **English `-s` on German plural** 🏆 | 1 | 7 | 7 | 0 | 🔴 | 2026-09-26 | *freunds* → **Freunde**, *Arbeitfreunds* → **Kollegen**, *dings* ×3 → **Dinge**, *Machines* ×2 → **Maschinen** | Promoted — see [[4_Golden_Rules]]. Raised to Tier 1 in S3 (plurals are priority 2). German plurals use `-e`, `-er`, `-(e)n` or nothing; `-s` only for loanwords like *Autos* |
 | das Wort | 2 | 1 | 1 | 0 | 🔴 | 2026-09-21 | *worte* | **die Wörter** (individual words) vs **die Worte** (utterances) |
-| **Dativ plural `-n`** | 1 | 2 | 2 | 0 | 🔴 | 2026-09-21 | *Arbeiter*, *viele Fälle* | **Arbeiter*n***, **vielen Aufgaben** |
+| **Dativ plural `-n`** 🏆 | 1 | 3 | 3 | 0 | 🔴 | 2026-09-26 | *Arbeiter*, *viele Fälle*, *mit einfach dings* | **Arbeiter*n***, **vielen Aufgaben**, **mit einfachen Dingen**. Promoted — see [[4_Golden_Rules]] |
+| Plural article: **`die`** for every gender | 1 | 1 | 1 | 0 | 🔴 | 2026-09-26 | *das … dings* — kept the singular article of *das Ding* | **die** … Dinge. Nominativ and Akkusativ plural are always **die**, whatever the singular: *das Ding → die Dinge*, *der Ort → die Orte*. Dativ plural: **den** … `-n` |
 
 > **Dativ plural takes an extra `-n`**: `die Kinder` → `mit den Kinder**n**`. Exception: plurals already ending in `-n` or `-s`. Tier 1 — it sits at the intersection of both his priorities.
 
@@ -162,14 +177,18 @@ English prepositions almost never map 1:1, and the German preposition drags its 
 
 | Rule | T | Hits | Rec | Att | Rate | Streak | St | Last | The fix |
 |:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--|:--|
-| **Adjective endings** | 2 | 5 | 5 | 5 | 100% | 0 | 🔴 | 2026-09-21 | Attributive adjectives always take an ending. *wichtig factor* → **wichtiger**; *falsch Informationen* → **falsche**; *anders Orten* → **verschiedenen** |
+| **Adjective endings** | 2 | 10 | 10 | 10 | 100% | 0 | 🔴 | 2026-09-26 | Attributive adjectives always take an ending. *wichtig factor* → **wichtiger**; *falsch Informationen* → **falsche**; *anders Orten* → **verschiedenen**; S2: *groß* → **große**, *ein gut* → **eine gute**, *ein schön Weg* → **ein schöner Weg**; S3: *mit einfach* → **mit einfachen**, *die besser Ort* → **der beste Ort** |
+| Verb ending must match the subject | 2 | 7 | 7 | 7 | 100% | 0 | 🔴 | 2026-09-26 | `du` → **-st** (*bist*, *willst*); `man` / `das` / one noun → **-t** (*denkt*, *ist*). *man denkst* → **denkt man**; *Das meinst* → **Das bedeutet**; *Man zeit sparen* → **Man spart Zeit**; *wöllen* → **willst**; S3: *sind du* → **bist du**, *KI … sind*, *Deutschland sind* → **ist** |
 | **Noun capitalization** | 2 | 9 | 9 | 25 | 36% | 0 | 🔴 | 2026-09-21 | Every noun, always. He gets it right more often than wrong — inconsistency, not ignorance |
-| **Invented English-shaped words** | 1 | 5 | 5 | 5 | 100% | 0 | 🔴 | 2026-09-21 | *Kautious, Privaciheit, zweilich-gecheckt, Gegenheit, gewird*. **Leave a `(gap)` instead** — an honest gap teaches, an invented word does not |
+| **Invented English-shaped words** | 1 | 7 | 7 | 24 | 29% | 1 | 🟡 | 2026-09-23 | *Kautious, Privaciheit, zweilich-gecheckt, Gegenheit, gewird*; S2: *überzeit*, *Personal-Leben*. Every honest gap is a correct attempt: 11 in S2, 6 in S3 with no inventions at all. S3's gaps came after an explicit reminder, so they add to `Att` but not to `Streak` — **don't remind next session**. Was promotable in S1–S2 but never promoted; at 29% it no longer qualifies, and it's improving, so no Golden Rule. **Leave a `(gap)` instead** — an honest gap teaches, an invented word does not |
 | Passive voice | 2 | 2 | 2 | 2 | ? | 0 | 🔴 | 2026-09-21 | `werden` + participle. *ist benutzen gewesen* → **wird verwendet** |
-| `das` vs `dass` | 2 | 2 | 2 | 2 | ? | 0 | 🔴 | 2026-09-21 | `dass` = conjunction · `das` = article/pronoun. He reversed both, once each way |
-| Wrong connector | 2 | 2 | 2 | 2 | ? | 0 | 🔴 | 2026-09-21 | *Ansonsten* → **Jedoch**; *Außer* → **Außerdem**. Neither word means what he wanted |
+| `das` vs `dass` | 2 | 4 | 4 | 4 | 100% | 0 | 🔴 | 2026-09-26 | `dass` = conjunction · `das` = article/pronoun. Reversed once each way in S1, and again in S3: *das KI* → **dass KI**, *zu dass tuen* → **um das zu tun** |
+| Wrong connector | 2 | 3 | 3 | 3 | 100% | 0 | 🔴 | 2026-09-26 | *Ansonsten* → **Jedoch**; *Außer* → **Außerdem**; *Da, ich möchte* (= so) → **Deshalb möchte ich**. None of them means what was intended |
 | Genitiv of possession | 2 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-09-21 | *von unseren Leben* → **unseres Lebens** |
-| Verb stem change (e→i) | 2 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-09-21 | *helft* → **hilft**. Also `geben→gibt`, `nehmen→nimmt` |
+| Verb stem change (e→i) | 2 | 2 | 2 | 2 | ? | 0 | 🔴 | 2026-09-23 | *helft* → **hilft**; *hilfen können* → **helfen können** — only `du` / `er` / `sie` / `es` change, never the infinitive. Also `geben→gibt`, `nehmen→nimmt` |
+| `nicht …, sondern …` | 2 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-09-23 | After a negation, "but (instead)" is **sondern**, never `aber`. *…, aber nach Hause* → **…, sondern zu Hause** |
+| Relative pronoun matches its noun | 2 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-09-26 | The pronoun copies the noun's gender and number: *Dinge, das (exist)* → **Dinge, die existieren** |
+| Superlative: `gut → besser → der beste` | 2 | 2 | 2 | 2 | ? | 0 | 🔴 | 2026-09-26 | "The best" is **der / die / das beste**; `besser` = better. *die besser Ort* → **der beste Ort**; *das meinst schlecht (dificult)* ("the most difficult") → **die schwierigsten** / **am schwersten**. German never builds "most" + adjective: **-st** goes on the adjective itself, however long — English *hard → hardest*, always, never *most difficult* |
 
 ---
 

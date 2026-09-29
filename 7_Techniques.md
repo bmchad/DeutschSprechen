@@ -1,6 +1,6 @@
 ---
 tags: [system, techniques]
-updated: 2026-09-21
+updated: 2026-09-26
 ---
 
 # Teaching Techniques
@@ -38,6 +38,8 @@ Instead of correcting, show the error located but not fixed — `Ich bin mit [me
 
 **Status:** fired once, he couldn't answer. Diagnosis was that the teaching hadn't been prominent enough, which is where the "prominent teaching" condition came from. Needs a fair second trial.
 
+**Second trial, 2026-09-26 — it worked.** Fired during a warm-up on verb-final after `weil` (*weil ich möchte dort arbeiten*), a rule taught prominently in Session 2's pattern summary. The hint named only the rule family. Repaired correctly on the first retry: *weil ich dort arbeiten möchte*. Keep it.
+
 ---
 
 ### Free gender rule
@@ -66,7 +68,7 @@ When the fully correct sentence needs B1 grammar, show it — then show an **A2 
 
 ---
 
-## 🧪 Proposed, not yet tried
+## 🧪 On trial
 
 ### Minimal pair
 Two forms differing in exactly one feature, side by side, no prose between them:
@@ -75,6 +77,25 @@ Two forms differing in exactly one feature, side by side, no prose between them:
 > `in **der** Küche` — in the kitchen (position)
 
 **Hypothesis:** for Wechselpräpositionen and case contrasts, seeing the single difference beats reading a paragraph about it.
+
+**First used 2026-09-26**, flagged as an experiment: *Das Essen ist **fertig*** / *das **fertige** Essen* (no ending after `sein`), then *KI **kann** gut kopieren* / *KI **ist** gut **zu** kopieren* — the second pair shows a meaning flip ("good at copying" vs "easy to copy"), which is where the device is strongest. No verdict from Bernardo yet.
+
+### Connector sorter
+**Invented:** 2026-09-26, when `da` did three different jobs in one text and both word-order rules fired on the wrong connectors.
+
+One table, one question: *where does the verb go?*
+
+| Row | Connectors | The verb |
+|:--|:--|:--|
+| 0 · glue | `und` · `aber` · `oder` · `denn` · `sondern` | nothing changes |
+| 1 · adverbs | `deshalb` · `darum` · `also` · `dann` · `da` = there | comes **next** |
+| 2 · conjunctions | `weil` · `dass` · `wenn` · `ob` · `da` = since | goes **last** |
+
+**Hypothesis:** the V2 and verb-final rules are both known now. What fails is *sorting* the connector into the right row, so teaching the sort beats re-teaching either rule. `da` is the showcase because it lives in two rows — and Portuguese *daí* adds a third, false meaning.
+
+**Status:** flagged as an experiment. No verdict yet.
+
+## 🧪 Proposed, not yet tried
 
 ### Reverse test
 Give him **correct German** and ask what it means.
@@ -85,6 +106,8 @@ Give him **correct German** and ask what it means.
 Before he writes something long, name the one rule most likely to bite him.
 
 **Hypothesis:** if forewarning helps, it's extremely cheap. If it doesn't, that's informative too — it would mean his errors are automatic rather than attention-driven, which changes how they should be drilled.
+
+**Evidence, 2026-09-26:** the verb-final error came unprompted and was fixed at once when a hint drew attention to it. The rule is known but not automatic — so attention is the bottleneck, which is exactly what forewarning targets. Still untested.
 
 ---
 

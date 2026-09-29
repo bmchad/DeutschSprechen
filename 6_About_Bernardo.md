@@ -1,6 +1,6 @@
 ---
 tags: [profile]
-updated: 2026-09-21
+updated: 2026-09-26
 ---
 
 # About Bernardo
@@ -20,7 +20,9 @@ Two reasons this file exists:
 
 | Topic | What I know | Learned |
 |:--|:--|:--|
-| | | |
+| Studies | **Elektrotechnik** — electrical engineering | 2026-09-26 |
+| Wants to work with | **Machines.** The reasoning: AI is very good at copying what already exists, so the work worth doing is the work that is hard to copy | 2026-09-26 |
+| Where | **Germany** — "simply the best place in the world" for working with machines | 2026-09-26 |
 
 ## People & places that keep coming up
 
@@ -28,7 +30,9 @@ Recurring nouns worth owning properly — with article and plural.
 
 | Who / what | German | Note |
 |:--|:--|:--|
-| | | |
+| electrical engineering | **die Elektrotechnik** (no pl.) | The field. The person is **der Ingenieur, die Ingenieure** — *Ich studiere Elektrotechnik* · later *Ich bin Elektroingenieur* |
+| machine | **die Maschine, die Maschinen** | Plural already ends in `-n`, so the Dativ plural adds nothing: *mit Maschinen* |
+| Germany | **Deutschland** (das, no article) | Singular: *Deutschland **ist*** |
 
 ## Topics he engages with
 
@@ -36,12 +40,13 @@ Good sources of follow-up questions. Note anything that produced a long, energet
 
 | Topic | Note |
 |:--|:--|
+| AI vs. jobs, engineering, machines | Asked only *"what job?"*, and got back an unprompted three-sentence argument. Best source of long answers so far |
 
 ## Why he's learning German
 
 | | |
 |:--|:--|
-| Goal | |
+| Goal | To **work** in a German-speaking country — *ich möchte dort arbeiten* (2026-09-26). Which country, and what work, not said yet |
 | Deadline / exam | |
 | Practice rhythm | |
 
@@ -49,4 +54,7 @@ Good sources of follow-up questions. Note anything that produced a long, energet
 
 Things he mentioned that were never followed up. Good openers for the next session.
 
-- *(none yet)*
+- ~~Where exactly, and doing what?~~ Answered the same day: Germany, with machines.
+- **Which machines?** Robots, motors, power systems? Asking *Mit welchen Maschinen?* forces `mit` + Dativ plural — *mit Robotern* (2026-09-26)
+- **Which city or company?** *In welcher Stadt?* forces `in` + Dativ
+- **Biggest advantage of Germany for him** — asked 2026-09-26, with `(advantage)` as the parenthetical for `der Vorteil`

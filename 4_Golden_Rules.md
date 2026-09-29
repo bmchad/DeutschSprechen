@@ -1,6 +1,6 @@
 ---
 tags: [ledger, rules]
-updated: 2026-09-21
+updated: 2026-09-26
 ---
 
 # Golden Rules
@@ -95,6 +95,115 @@ English **"so"** (therefore) is German **`also`**. German **`also`** never means
 **No English bridge exists** — this is a straight swap that has to be memorised. The two words point at each other across the languages.
 
 **And it carries a second rule:** `Also` almost always sits at the front of the sentence, which means **the verb comes next**. Every time you fix this word, you also have to invert. Two Golden Rules in one.
+
+---
+
+### Only Masculine Changes in the Akkusativ
+
+**Promoted:** 2026-09-23 · **Trigger:** 4 hits, 80% rate, session 2 · **Revised:** 2026-09-26 — two of those hits turned out to be gender slips (below). The rule still stands at 2 hits in 3 attempts, 67%
+
+If a noun is masculine and is the direct object, give its article and pronouns an `-n`.
+
+- ❌ *Ich korrigiere mein Satz* → ✅ *Ich korrigiere **meinen** Satz*
+- ❌ *meine Letzte Satz* → ✅ ***meinen letzten** Satz*
+
+**English bridge:** English does this with *he* → *hi**m***. German does it for every masculine determiner: `der` → `de**n**`, `ein` → `eine**n**`, `mein` → `meine**n**`.
+
+**Check the gender first.** *dein Komputer* and *dein Arbeittag* (Session 2) looked like this error, but the same text had *das Komputer* and *nach das Arbeitad* — both nouns were believed neuter, and for a neuter object `dein` is correct. The fix there is the gender: **der** Computer → **den** Computer.
+
+---
+
+### "More and More" Is `Immer Mehr`
+
+**Promoted:** 2026-09-23 · **Trigger:** 3 hits, 100% rate, session 2
+
+Never translate "more and more" word-for-word — use `immer` + comparative.
+
+- ❌ *Mehr und mehr menschen arbeiten* → ✅ ***Immer mehr** Menschen arbeiten*
+- ❌ *mehr und mehr wichtig* → ✅ ***immer wichtiger***
+
+**English bridge:** Think of `immer` as "ever": "ever more people", "ever more important".
+
+---
+
+### `weil` Kicks the Verb to the End
+
+**Promoted:** 2026-09-26 · **Trigger:** 12 hits, 71% rate, session 3
+
+After `weil`, `dass`, `wenn`, `ob`, `da` (= since) and in relative clauses, put the conjugated verb last.
+
+- ❌ *weil man braucht nicht zu geht* → ✅ *weil man nicht … pendeln **muss***
+- ❌ *da man nicht sieht ihr* → ✅ *da man sie nicht … **sieht***
+- ❌ *weil ich möchte dort arbeiten* → ✅ *weil ich dort arbeiten **möchte***
+
+**English bridge:** English does this once already. *Where **is** the station?* becomes *I don't know where the station **is***: when a question sinks inside another sentence, its verb drops to the end. German does it after every `weil` and `dass`.
+
+**Watch `da`:** `da` = "since" sends the verb to the end (*Da ich denke …*). Only `da` = "there / then" is followed by the verb (*Da denke ich …*).
+
+**Self-check:** see `weil` / `dass` / `wenn` / `ob` / `da`? The conjugated verb is the last word before the comma.
+
+---
+
+### `zu` Comes Last
+
+**Promoted:** 2026-09-26 · **Trigger:** 6 hits, 100% rate, session 3
+
+Put `zu` directly before its infinitive, and put the pair at the very end of the clause.
+
+- ❌ *zu besser Arbeite und Personal-Leben (combine)* → ✅ *Arbeit und Privatleben besser **zu verbinden***
+- ❌ *zu dass tuen* → ✅ ***um** das **zu tun***
+- ❌ *zu fotos enhance* → ✅ ***um** Fotos **zu verbessern***
+
+**English bridge:** read the English phrase backwards. *to combine work and life* → *work and life … to combine* → *Arbeit und Leben **zu verbinden***. "In order to" is **`um` … `zu`**, with everything else between them.
+
+**Self-check:** does `zu` + infinitive close the clause?
+
+---
+
+### No English `-s` on German Plurals
+
+**Promoted:** 2026-09-26 · **Trigger:** 7 hits, 100% rate, raised to Tier 1 in session 3
+
+Never build a German plural with `-s`; learn every noun together with its plural.
+
+- ❌ *freunds* → ✅ **Freunde**
+- ❌ *dings* → ✅ **Dinge**
+- ❌ *Machines* → ✅ **Maschinen**
+- ❌ *Arbeitfreunds* → ✅ **Kollegen**
+
+**English bridge:** English has plurals nobody builds with `-s`: *children*, *men*, *mice*. You would never write *childs*. Treat every German plural like *children*, stored with the noun.
+
+**Self-check:** a plural ending in `-s`? Only loanwords take it: *Autos*, *Handys*, *Hotels*.
+
+---
+
+### The Dativ Plural Ends in `-n`
+
+**Promoted:** 2026-09-26 · **Trigger:** 3 hits, 100% rate, session 3
+
+In the Dativ plural, add `-n` to the noun itself, on top of the `-en` on the words before it.
+
+- ❌ *mit einfach dings* → ✅ *mit einfache**n** Dinge**n***
+- ❌ *mit viele Fälle* → ✅ *mit viele**n** Fälle**n***
+
+**English bridge:** *with **them*** → *mit **ihnen***. The Dativ plural pronoun already ends in `-n`, and so does every word in a Dativ plural phrase: *mit de**n** Kinder**n***.
+
+**Self-check:** `mit` / `von` / `zu` / `bei` / `aus` / `helfen` + a plural? The noun ends in `-n` (plurals already ending in `-n` or `-s` stay as they are).
+
+---
+
+### `In` Is Not `Into`
+
+**Promoted:** 2026-09-26 · **Trigger:** 3 hits, 75% rate, session 2
+
+With no movement, a two-way preposition takes the Dativ: `im`, `in der`, `auf dem`.
+
+- ❌ *sie arbeiten ins Büro* → ✅ *sie arbeiten **im** Büro*
+- ❌ *in viele anders Orten* → ✅ ***in vielen** Orten*
+
+**English bridge:** English already splits this. *In* the office = Dativ (`im Büro`); *into* the office = Akkusativ (`ins Büro`). Same with *on* (`auf dem Tisch`) vs *onto* (`auf den Tisch`).
+
+**Self-check:** ask *wo?* (where?) or *wohin?* (where to?). *Wo?* → Dativ.
 
 ---
 
