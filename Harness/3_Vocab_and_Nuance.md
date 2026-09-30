@@ -63,7 +63,8 @@ Record the **case it governs** and any fixed preposition — that is where Engli
 | English | German | Governs | Miss | Att | Streak | St | Last | Note |
 |:--|:--|:--|:-:|:-:|:-:|:-:|:--|:--|
 | to help | **helfen** | **Dativ** | 2 | 2 | 0 | 🔴 | 2026-09-21 | `Ich helfe **dir**`. Plural adds `-n`: **Arbeitern** |
-| to improve | **verbessern** | Akk | **2** | 2 | 0 | 🔴 | 2026-09-21 | **Missed twice** — `(enhance)` in the AI text, `(improve)` again today. `ver-` + `besser` = "to make better". Flagged by him as a word he keeps forgetting |
+| to continue | **weitermachen** (separable) | — | 1 | 1 | 0 | 🔴 | 2026-09-30 | Wrote *continuiren* (glossed honestly). *Wenn du so **weitermachst** …* · formal: `fortfahren` (B1) |
+| to improve | **verbessern** | Akk | **3** | 3 | 0 | 🔴 | 2026-09-30 | **Third miss, but closest yet:** *bessern* (09-30) — right root, missing `ver-`. Before that: **missed twice** — `(enhance)` in the AI text, `(improve)` again today. `ver-` + `besser` = "to make better". Flagged by him as a word he keeps forgetting |
 | to keep track of | **verfolgen** | Akk | 1 | 1 | 0 | 🔴 | 2026-09-21 | Literally "to follow along". Simpler A2 options: **notieren** (note down), **sammeln** (collect). Avoid `den Überblick behalten über` — B1 |
 | to open | **öffnen** / **aufmachen** | Akk | 1 | 1 | 0 | 🔴 | 2026-09-23 | `öffnen` neutral · `aufmachen` colloquial, separable → *ich mache es **auf*** |
 | **to turn on / off** | **anmachen** ↔ **ausmachen** | Akk | 1 | 1 | 0 | 🔴 | 2026-09-29 | ⚠️ **Swapped them exactly once.** `an`/`ein` = on · `aus` = off. For settings and devices: **einschalten** ↔ **ausschalten**. Mnemonic: `aus` = out = off |

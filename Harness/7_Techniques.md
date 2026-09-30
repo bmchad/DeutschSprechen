@@ -116,3 +116,7 @@ Before he writes something long, name the one rule most likely to bite him.
 ## ❌ Tried and dropped
 
 *(nothing yet)*
+
+**Repair turn, trial 4 (2026-09-30) — success.** V2 after a `wenn` clause, hint = "the whole wenn part is one block in position 1". Fixed first try. Three in a row.
+
+**Reverse test — first natural data (2026-09-30).** Asked him *Merkst du einen Unterschied?* without translating; he glossed *merken* = notice and *Unterschied* = difference correctly. Comprehension is running ahead of production — worth testing deliberately.
