@@ -61,7 +61,7 @@ Split by *cause*, because each cause needs a different drill. "You made a case m
 
 | Rule | T | Hits | Rec | Att | Rate | Streak | St | Last | My examples | The fix |
 |:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--|:--|:--|
-| **`in` = static location → Dativ** 🏆 | 1 | 3 | 3 | 4 | 75% | 0 | 🔴 | 2026-09-23 | *in viele anders Orten* → **in vielen**; *An schule* → **In der Schule**; *ins Büro* → **im Büro** | Promoted — see [[4_Golden_Rules]]. No movement → Dativ. `in **der** Schule`, `in **vielen** Bereichen`, `im Büro`. Got `in Unternehmen` right |
+| **`in` = static location → Dativ** 🏆 | 1 | 5 | 5 | 6 | 83% | 0 | 🔴 | 2026-09-30 | *in viele anders Orten* → **in vielen**; *An schule* → **In der Schule**; *ins Büro* → **im Büro**; 09-30: *in das repo* → **im Repo**, *zu inner ein folder* → **in einem Ordner** | Promoted — see [[4_Golden_Rules]]. No movement → Dativ. `in **der** Schule`, `in **vielen** Bereichen`, `im Büro`. Got `in Unternehmen` right |
 | `auf` = static → Dativ | 1 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-09-23 | *über das Tisch* → **auf dem Tisch** | Lying on a surface = **auf** + Dativ (*wo?*). `über` = above it, not touching |
 
 ### 1d. Object roles (Nom subject / Akk direct / Dativ indirect)
@@ -86,6 +86,7 @@ Not case errors. Logged here only to keep the diagnosis honest — the real reco
 | der Arbeitstag | 2 | 2 | 2026-09-23 | *nach das Arbeitad* — thought neuter; then *dein Arbeittag* as the object, correct for a neuter | nach **dem** Arbeitstag · **deinen** Arbeitstag. Case wrong too in the first — see `nach` in 1b. The second hit moved here from masculine Akk `-n` in S3; the neuter belief is unconfirmed |
 | die Work-Life-Balance | 1 | 1 | 2026-09-23 | *ein gut … (balance)* — Nominativ was right | **eine** gute Work-Life-Balance. The noun itself was a gap |
 | der Ort | 1 | 1 | 2026-09-26 | *die besser Ort* — Nominativ right, thought feminine | **der** beste Ort |
+| der Skill | 2 | 3 | 2026-09-30 | *das skill* 09-29 and 09-30 — Akk right **for a neuter**. Had **den Skill** correct on 09-26 | **den** Skill. ⚠️ **Pattern across this table: masculine nouns keep getting `das`** — Computer, Tisch, Arbeitstag, Skill. His default for an unsure gender looks like neuter, probably English *it*. Neighbouring neuters (*das Repo*, *das Plugin*) likely pull it too |
 
 ---
 
@@ -116,7 +117,7 @@ English prepositions almost never map 1:1, and the German preposition drags its 
 
 | Looks like | Actually means | "That word" in German | T | Hits | Att | St | Last |
 |:--|:--|:--|:-:|:-:|:-:|:-:|:--|
-| **pasta** 🇵🇹 | folder → **der Ordner, die Ordner** | ⚠️ EN "paste" = `einfügen` — a **three-way trap**: PT *pasta* → EN "paste" → wrong German. His only Portuguese-source false friend so far | 1 | 2 | 2 | 🔴 | 2026-09-23 |
+| **pasta** 🇵🇹 | folder → **der Ordner, die Ordner** | ⚠️ EN "paste" = `einfügen` — a **three-way trap**: PT *pasta* → EN "paste" → wrong German. His only Portuguese-source false friend so far. **`Ordner` missed a third time on 09-30** — wrote bare English *folder*, no gap | 1 | 3 | 3 | 🔴 | 2026-09-30 |
 | bekommen | to receive | werden (to become) | 1 | | | | |
 | **also** 🏆 | so / therefore | auch (also) | 1 | 4 | 4 | 🔴 | 2026-09-23 |
 | Gift | poison | Geschenk (gift) | 1 | | | | |
@@ -152,7 +153,7 @@ English prepositions almost never map 1:1, and the German preposition drags its 
 | **Verb-final in subordinate clauses** 🏆 | 1 | 12 | 12 | 18 | 67% | 1 | 🟡 | 2026-09-30 | Promoted — see [[4_Golden_Rules]]. After `dass` / `weil` / `wenn` / `ob` / `da` **and in relative clauses**, the conjugated verb goes last. *dass manchmal es gibt* → **dass sie manchmal … gibt**; S2: 3 hits (*weil*, *wenn*, *da*), right in *Wenn du … wöllen* and *Wenn du diese Regeln (follow)*. S3: *Da denke ich* → **Da ich denke**, *Da ich studiere …* → **… studiere**; right in a `dass` clause |
 | **`zu`-infinitive placement** 🏆 | 1 | 6 | 6 | 6 | 100% | 0 | 🔴 | 2026-09-26 | Promoted — see [[4_Golden_Rules]]. `zu` sits immediately before the final infinitive. Purpose takes **`um` … `zu`**. *zu fotos enhance* → **um Fotos zu verbessern**; *zu besser … (combine)* → **besser zu verbinden**; *zu einige … kopf* → **den Kopf freizubekommen**; *zu dass tuen* → **um das zu tun** |
 | Negation placement | 2 | 3 | 3 | 3 | 100% | 0 | 🔴 | 2026-09-26 | `nicht` goes **before** what it negates. *nur Vorteile nicht* → **nicht nur Vorteile**; *ins Büro nicht* → **nicht im Büro**; *arbeit nicht* → **nicht … arbeiten** |
-| With a modal, the infinitive goes to the end — separable verbs stay joined | 2 | 2 | 2 | 4 | 50% | 0 | 🔴 | 2026-09-23 | *kannst du spät fangen an* → **kannst du später anfangen**; *… und etwa anders macht* → **… und etwas anderes machen** (infinitive, not `macht`). Right with *(plan)* and *aufmachen* at the end |
+| With a modal, the infinitive goes to the end — separable verbs stay joined | 2 | 3 | 3 | 5 | 60% | 0 | 🔴 | 2026-09-30 | *kannst du spät fangen an* → **kannst du später anfangen**; *… und etwa anders macht* → **… und etwas anderes machen** (infinitive, not `macht`). Right with *(plan)* and *aufmachen* at the end. 09-30: *möchte … **zu** machen* → **möchte … machen** — position right, stray `zu`. No `zu` after a modal, ever |
 | Perfekt participle placement | 1 | 0 | 0 | 0 | — | 0 | 🔴 | — | `haben`/`sein` second, participle at the very end |
 | TeKaMoLo | 2 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-09-23 | **Te**mporal → **Ka**usal → **Mo**dal → **Lo**kal. *arbeiten aus Hause heute* → **arbeiten heute von zu Hause** |
 
@@ -164,7 +165,7 @@ English prepositions almost never map 1:1, and the German preposition drags its 
 |:--|:-:|:-:|:-:|:-:|:-:|:--|:--|:--|
 | der Mensch | 1 | 4 | 5 | 0 | 🔴 | 2026-09-23 | *mensche* / *mensch*; *etwa mensch* → **manche Menschen**. Got *menschen* right once (S2) | **die Menschen** — irregular, adds `-en` |
 | der Lehrer | 2 | 1 | 1 | 0 | 🔴 | 2026-09-21 | *Lehrers* | **die Lehrer** — no change. The `-s` is an English habit |
-| **English `-s` on German plural** 🏆 | 1 | 7 | 7 | 0 | 🔴 | 2026-09-26 | *freunds* → **Freunde**, *Arbeitfreunds* → **Kollegen**, *dings* ×3 → **Dinge**, *Machines* ×2 → **Maschinen** | Promoted — see [[4_Golden_Rules]]. Raised to Tier 1 in S3 (plurals are priority 2). German plurals use `-e`, `-er`, `-(e)n` or nothing; `-s` only for loanwords like *Autos* |
+| **English `-s` on German plural** 🏆 | 1 | 8 | 8 | 0 | 🔴 | 2026-09-30 | *freunds* → **Freunde**, *Arbeitfreunds* → **Kollegen**, *dings* ×3 → **Dinge**, *Machines* ×2 → **Maschinen**; 09-30: *markdowns* → **Markdown-Dateien** | Promoted — see [[4_Golden_Rules]]. Raised to Tier 1 in S3 (plurals are priority 2). German plurals use `-e`, `-er`, `-(e)n` or nothing; `-s` only for loanwords like *Autos* |
 | das Wort | 2 | 1 | 1 | 0 | 🔴 | 2026-09-21 | *worte* | **die Wörter** (individual words) vs **die Worte** (utterances) |
 | **Dativ plural `-n`** 🏆 | 1 | 3 | 3 | 0 | 🔴 | 2026-09-26 | *Arbeiter*, *viele Fälle*, *mit einfach dings* | **Arbeiter*n***, **vielen Aufgaben**, **mit einfachen Dingen**. Promoted — see [[4_Golden_Rules]] |
 | Plural article: **`die`** for every gender | 1 | 1 | 1 | 0 | 🔴 | 2026-09-26 | *das … dings* — kept the singular article of *das Ding* | **die** … Dinge. Nominativ and Akkusativ plural are always **die**, whatever the singular: *das Ding → die Dinge*, *der Ort → die Orte*. Dativ plural: **den** … `-n` |

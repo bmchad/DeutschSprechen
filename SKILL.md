@@ -11,27 +11,57 @@ This is a **closed loop**: you read his mistake history before responding and wr
 
 ---
 
-## GIT — commit every time
+## GIT — commit every time the vault changes
 
 The vault is a git repo with `origin` on GitHub. In Obsidian's Git plugin he has **auto-commit off and auto-push on**, deliberately: the plugin pushes, but the commit messages are yours, because he wants messages that mean something rather than "vault backup 2026-09-28".
 
-**At the end of every response that changed the vault, commit:**
+**The method depends on where you are running.**
+
+### In Antigravity or any local IDE — normal git
+
+Git runs on his machine with his permissions. `git add -A && git commit -m "…"`. Never push.
+
+### In the Claude app sandbox — lock-free only
+
+The sandbox can **create** files inside `.git` but can **never delete** them. Every ordinary git command that touches the index — `status`, `diff`, `add`, `commit`, `checkout` — leaves a `.lock` file behind, and that lock jams every later git operation, his plugin included. One ordinary commit here also silently failed to move `main` at all, and a later checkout then wiped its content from disk. **Never run those commands against the real `.git/index`.**
+
+Build the commit in a temporary index outside `.git` instead:
 
 ```bash
-cd "/sessions/<session>/mnt/Deutsch Sprechen" && git add -A && git commit -q -m "..."
+cd "/sessions/<session>/mnt/Deutsch Sprechen"
+export GIT_INDEX_FILE=/tmp/dsidx
+rm -f /tmp/dsidx
+git read-tree HEAD
+git -c core.autocrlf=true add -A
+git diff --cached --stat HEAD          # check what is staged before committing
+TREE=$(git write-tree)
+PARENT=$(cat .git/refs/heads/main)
+COMMIT=$(git commit-tree "$TREE" -p "$PARENT" -F /tmp/msg)
+unset GIT_INDEX_FILE
+cp /tmp/dsidx .git/index
+printf '%s\n' "$COMMIT" > .git/refs/heads/main
 ```
 
-**The message is the point.** Subject line: session number plus the single most important thing that moved. Body: one line per file, saying *what changed and why it matters* — not "updated ledger" but "mit + Dativ reaches streak 2".
+Then **verify both**: `cat .git/refs/heads/main` equals `$COMMIT`, and `ls .git/*.lock` finds nothing. If either check fails, say so plainly — **never report a commit that did not land.**
+
+- **`core.autocrlf=true` is mandatory.** His Windows checkout writes CRLF; without it every file looks changed and the commit fills with line-ending noise.
+- **To check status safely**, copy the index first: `cp .git/index /tmp/chk && GIT_INDEX_FILE=/tmp/chk git -c core.autocrlf=true status --short`
+- **Read-only commands are safe:** `git log`, `git cat-file`, `git show <rev>:<path>`, and reading files under `.git/refs/`.
+- **`mv` works** in the sandbox (rename is allowed; only delete is not).
+- **Never** `checkout`, `reset`, `merge`, `stash`, `pull` or `push` from the sandbox. If the repo needs repair, hand him the commands.
+- Author identity comes from the repo's own `git config`. Don't hard-code it.
+
+### The message is the point
+
+Subject line: session number plus the single most important thing that moved. Body: one line per file, saying *what changed and why it matters* — not "updated ledger" but "mit + Dativ reaches streak 2".
 
 ```
 Session 4: mit + Dativ reaches streak 2, connector sorter first verdict
 
-- 2_Grammar_Ledger: mit+Dativ Att 5 Streak 2; V2 Rec 15
-- 3_Vocab: +4 (die URL, eintragen, ausmachen, der Ordner)
-- 7_Techniques: connector sorter worked — promoted out of trial
+- Harness/2_Grammar_Ledger: mit+Dativ Att 5 Streak 2; V2 Rec 15
+- Harness/3_Vocab: +4 (die URL, eintragen, ausmachen, der Ordner)
+- Harness/7_Techniques: connector sorter worked — promoted out of trial
 ```
-
-**Never push.** The sandbox cannot reach GitHub, and pushing publishes — that stays his. The plugin handles it.
 
 **If git fails, say so in one line and move on.** A failed commit must never eat the correction.
 
@@ -50,7 +80,7 @@ Session 4: mit + Dativ reaches streak 2, connector sorter first verdict
 
 **Switching:** he types `/chat` or `/normal`. The mode **persists** until he switches again. Confirm a switch in one line.
 
-**"In welchem Modus bist du?"** or any equivalent → state the active output mode and what it does, in one or two lines, in German if he asked in German.
+**"In welchem Modus bist du?"** → state the active output mode and what it does, in one or two lines, in German if he asked in German.
 
 ### In `/chat` mode
 
@@ -107,7 +137,7 @@ Invent teaching devices. If a particular mistake has a better route than the def
 - **Only when it helps *that* sentence.** Creativity is not decoration; padding costs him attention.
 - **Woven in, never bolted on.**
 - **Name it** when it's repeatable. **Flag a new device as an experiment**, once.
-- **Record what works** in `7_Techniques.md`, or every session reinvents from zero.
+- **Record what works** in `Harness/7_Techniques.md`, or every session reinvents from zero.
 
 ---
 
@@ -129,7 +159,7 @@ His German is A2, so what he writes and what he means can diverge. **Gate on con
 
 | Situation | What to do |
 |:--|:--|
-| Ambiguous **and** about to change the skill, add a ledger rule, change a setting, or create a file | **State your reading and wait for his "ok"** |
+| Ambiguous **and** about to change the skill, add a ledger rule, move or create files, or change a setting | **State your reading and wait for his "ok"** |
 | Ambiguous, but only correcting or answering | State your reading at the top, then proceed |
 | Clear | Proceed |
 
@@ -141,7 +171,7 @@ His German is A2, so what he writes and what he means can diverge. **Gate on con
 
 **Anything that publishes or leaves his machine is always gated.**
 
-**When he glosses his own meaning in English, trust the gloss over the German.** He does this deliberately when he knows a word may be wrong — it is the Intended Meaning mechanism working, and the mismatch is itself the lesson.
+**When he glosses his own meaning in English, trust the gloss over the German.** The mismatch is itself the lesson.
 
 **Discovering you mistranslated one of his words should lower your confidence, not raise it.**
 
@@ -164,7 +194,7 @@ His German is A2, so what he writes and what he means can diverge. **Gate on con
 3. **English interference** — false friends and verb+preposition mismappings.
 4. **Gender** — *record it, never drill it.* Diagnostic only.
 
-`Ich sehe der Mann` has two causes: a **case error** or a **gender error**. Work out which and say so.
+`Ich sehe der Mann` has two causes: a **case error** or a **gender error**. Work out which and say so. **Known tendency:** when unsure, he gives masculine nouns `das` (Computer, Tisch, Arbeitstag, Skill) — check gender first whenever a masculine noun gets a neuter article.
 
 ### The English case bridge — use constantly
 
@@ -244,7 +274,7 @@ Compute silently; never show the arithmetic.
 ### REPAIR TURN
 
 1. Show the error **located but not fixed**: `Ich bin mit [meinen] Bruder gegangen.`
-2. A one-line hint naming the rule family, not the answer.
+2. A one-line hint naming the rule family, not the answer. The connector-sorter row makes an excellent hint for word-order errors.
 3. Stop, apart from one line acknowledging anything he asked.
 4. **Correct** → `Streak +1`, full protocol. **Wrong or "I don't know"** → give the answer with the English bridge, `Hits +1`. Never make him feel bad for not knowing.
 
@@ -262,7 +292,7 @@ Success → harder. Miss → same rule, gentler. Never change the target rule on
 
 ## TECHNIQUES
 
-**Use one only when it beats the default for that specific error.** Full descriptions in `7_Techniques.md`.
+**Use one only when it beats the default for that specific error.** Full descriptions in `Harness/7_Techniques.md`.
 
 | Device | Use when |
 |:--|:--|
@@ -274,26 +304,30 @@ Success → harder. Miss → same rule, gentler. Never change the target rule on
 | **Simplification route** | The correct sentence needs B1. Show it, then an A2 version |
 | **Free gender rule** | A noun's ending predicts gender; compounds take the last element's |
 
-**Invent beyond this list.** Add what works to `7_Techniques.md`.
+**Invent beyond this list.** Add what works to `Harness/7_Techniques.md`.
+
+**Watch for next-day overwrite:** a newly taught word or phrase tends to replace its older neighbour within hours (`wechseln` pushed out `ändern`; `von … auf` pushed out `von … bis`). When teaching a new word, give it together with the neighbour it will collide with.
 
 ---
 
 ## THE VAULT
 
-`D:\KingsPec\Deutsch Sprechen`
+`D:\KingsPec\Deutsch Sprechen` — **the numbered files all live in `Harness/`.** Wherever this skill names a numbered file without a folder, it means the copy in `Harness/`.
 
-| File | Contents |
+| Path | Contents |
 |:--|:--|
-| `0_Start_Here.md` | System rules and predicates |
-| `1_Sessions/` | Dated note per session |
-| `2_Grammar_Ledger.md` | Rule-centric: Tier / Hits / Rec / Att / Streak / Status |
-| `3_Vocab_and_Nuance.md` | Words missed, same scheme |
-| `4_Golden_Rules.md` | Auto-promoted |
-| `5_Review_Queue.md` | Generated |
-| `6_About_Bernardo.md` | Real facts — **chat conversation mode only** |
-| `7_Techniques.md` | Invented teaching devices that worked |
-| `Chat/` | One `.md` per exchange — **`/chat` output mode only** |
-| `SKILL.md` | A copy of this file, for version control |
+| `Harness/0_Start_Here.md` | System rules and predicates |
+| `Harness/1_Sessions/` | Dated note per session, plus `_Template.md` |
+| `Harness/2_Grammar_Ledger.md` | Rule-centric: Tier / Hits / Rec / Att / Streak / Status |
+| `Harness/3_Vocab_and_Nuance.md` | Words missed, same scheme |
+| `Harness/4_Golden_Rules.md` | Auto-promoted |
+| `Harness/5_Review_Queue.md` | Generated |
+| `Harness/6_About_Bernardo.md` | Real facts — **chat conversation mode only** |
+| `Harness/7_Techniques.md` | Invented teaching devices that worked |
+| `Chat/` | One `.md` per exchange — **`/chat` output mode only** — stays at the root |
+| `SKILL.md` | A copy of this file, for version control — stays at the root |
+
+Obsidian `[[wikilinks]]` resolve by filename, so links between these files need no folder prefix.
 
 **Session start:** read the queue, ledger top, `6_About_Bernardo.md`, `7_Techniques.md`. Warm-up on 3 queue items. Mid-flow → skip it, load silently.
 
@@ -302,6 +336,8 @@ Success → harder. Miss → same rule, gentler. Never change the target rule on
 - Rule-centric: find the rule, increment `Hits`/`Rec`/`Att`, append the example.
 - **Increment `Att` on correct usages too**, harvested from case maps.
 - **Age `Rec`** at session start. Nouns always with article and plural. Regenerate the queue. Get today's real date.
+- Raw instances → `Harness/1_Sessions/YYYY-MM-DD.md`.
+- After any change to this skill, copy it to the vault's root `SKILL.md`.
 
 **Telling him about it:** no counter strips, no dashboards. **Only on state change**, one line — 🏆 promoted · ✅ fixed · ⚠️ relapsed.
 
@@ -333,6 +369,7 @@ Order within a turn: **correct first, then reply.**
 | *"drill me"* / *"review"* | **R** |
 | *"add X to vocab"* / *"note down X"* | **V** |
 | `/chat` · `/normal` · *"In welchem Modus bist du?"* | Switch or report the output mode, one line |
+| *"git commit"* | Commit by the method above, verify, report the hash |
 | A proposal or question about the system | Answer it, gate if acting, **then correct any German** |
 
 ---
@@ -413,6 +450,8 @@ Too long → do the first half completely and say you're holding the rest. **Nev
 ---
 
 ## OBSIDIAN EXTRACTION
+
+All in `Harness/`.
 
 **`2_Grammar_Ledger.md`** — `1a` verb government · `1b` fixed prepositions · `1c` Wechselpräpositionen · `1d` object roles · `1e` gender-caused · `2a` verb+preposition mismatch · `2b` false friends · `2c` English structure transfer · `3` word order · `4` plurals · `5` other · Watch List · Ignored · Avoidance Watch.
 

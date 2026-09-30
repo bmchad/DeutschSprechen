@@ -48,6 +48,8 @@ English still has case — but only on pronouns, which is why Bernardo already u
 
 ## The files
 
+Everything numbered lives here in **`Harness/`**. The repo root holds only `SKILL.md`, `Chat/`, and the Obsidian config. `[[wikilinks]]` resolve by filename, so no link needs a folder prefix.
+
 | File | What lives there | Written when |
 |:--|:--|:--|
 | `0_Start_Here.md` | This file — the rules of the system | Rarely |
@@ -58,7 +60,8 @@ English still has case — but only on pronouns, which is why Bernardo already u
 | `5_Review_Queue.md` | Generated. What to drill next session | End of session |
 | `6_About_Bernardo.md` | Real facts learned in conversation | **Chat mode only** |
 | `7_Techniques.md` | Invented teaching devices that worked | When one lands |
-| `SKILL.md` | A copy of the skill, for version control | On every skill change |
+| `../SKILL.md` | A copy of the skill, for version control — at the repo root | On every skill change |
+| `../Chat/` | One `.md` per exchange, `/chat` output mode only — at the repo root | In `/chat` mode |
 
 ## The three layers
 
