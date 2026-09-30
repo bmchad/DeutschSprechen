@@ -40,6 +40,8 @@ Instead of correcting, show the error located but not fixed — `Ich bin mit [me
 
 **Second trial, 2026-09-26 — it worked.** Fired during a warm-up on verb-final after `weil` (*weil ich möchte dort arbeiten*), a rule taught prominently in Session 2's pattern summary. The hint named only the rule family. Repaired correctly on the first retry: *weil ich dort arbeiten möchte*. Keep it.
 
+**Third trial, 2026-09-30 — worked again.** Fired on a greeting (*damit [hast du] von Opus 5 zu Opus 5.5 (changed)?*). The hint named only the connector sorter row (`damit` = row 2). Repaired first try: *damit du … (changed) hast*. He moved the verb, kept his honest gap, and changed nothing else — exactly the scope asked for. **Two successes in a row since the "prominent teaching" condition was added.** Pairing it with the connector sorter as the hint looks strong: the sorter gives him the *question* to ask, and the repair makes him ask it.
+
 ---
 
 ### Free gender rule
