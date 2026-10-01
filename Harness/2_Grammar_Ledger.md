@@ -61,7 +61,7 @@ Split by *cause*, because each cause needs a different drill. "You made a case m
 
 | Rule | T | Hits | Rec | Att | Rate | Streak | St | Last | My examples | The fix |
 |:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--|:--|:--|
-| **`in` = static location → Dativ** 🏆 | 1 | 7 | 7 | 8 | 88% | 0 | 🔴 | 2026-10-01 | *in viele anders Orten* → **in vielen**; *An schule* → **In der Schule**; *ins Büro* → **im Büro**; 09-30: *in das repo* → **im Repo**, *zu inner ein folder* → **in einem Ordner**; 10-01: *in chat* → **im Chat**, *in Markdown-Datei* → **in einer** | Promoted — see [[4_Golden_Rules]]. No movement → Dativ. `in **der** Schule`, `in **vielen** Bereichen`, `im Büro`. Got `in Unternehmen` right |
+| **`in` = static location → Dativ** 🏆 | 1 | 8 | 8 | 9 | 89% | 0 | 🔴 | 2026-10-01 | *in viele anders Orten* → **in vielen**; *An schule* → **In der Schule**; *ins Büro* → **im Büro**; 10-01: *in chat* → **im Chat**, *in Markdown-Datei* → **in einer**, *in Antigravity IDE* → **in der** | Promoted — see [[4_Golden_Rules]]. No movement → Dativ. `in **der** Schule`, `in **vielen** Bereichen`, `im Büro`. Got `in Unternehmen` right |
 | `in` = state change / motion → Akkusativ | 1 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-10-01 | *in obsidian modus* → **in den Obsidian-Modus** | Changing state or mode is "movement" into it (*wohin?*). `der Modus` → `in den Modus` |
 | `auf` = static → Dativ | 1 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-09-23 | *über das Tisch* → **auf dem Tisch** | Lying on a surface = **auf** + Dativ (*wo?*). `über` = above it, not touching |
 
@@ -182,7 +182,7 @@ English prepositions almost never map 1:1, and the German preposition drags its 
 | Rule | T | Hits | Rec | Att | Rate | Streak | St | Last | The fix |
 |:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--|:--|
 | `wie` vs `was` ("how" vs "what") | 1 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-10-01 | *was kann ich* → **wie kann ich** | "How" = `wie`. "What" = `was` |
-| Formal vs Informal (`Sie` vs `du`) | 2 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-10-01 | *lesen Sie* → **lies** | We are using informal `du`. Imperative for `lesen` is `lies` |
+| Formal vs Informal (`Sie` vs `du`) | 2 | 2 | 2 | 2 | ? | 0 | 🔴 | 2026-10-01 | *lesen Sie* → **lies**; *vergleichen Sie* → **vergleiche** | We are using informal `du`. Imperative for `lesen` is `lies` |
 | `welch-` vs `was` for "which noun" | 2 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-10-01 | *was Modus* → **in welchem Modus** | "What mode" = "which mode" = `welch-` + ending. Also needs preposition `in` + Dativ |
 | Simple past of `sein` (`waren`) | 1 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-10-01 | *wurden ... gewesen* → **waren** | Don't mix passive `wurden` with perfect `gewesen` for "were" |
 | **Adjective endings** | 2 | 11 | 11 | 11 | 100% | 0 | 🔴 | 2026-10-01 | Attributive adjectives always take an ending. *wichtig factor* → **wichtiger**; *falsch Informationen* → **falsche**; *anders Orten* → **verschiedenen**; S2: *groß* → **große**, *ein gut* → **eine gute**, *ein schön Weg* → **ein schöner Weg**; S3: *mit einfach* → **mit einfachen**, *die besser Ort* → **der beste Ort**. 10-01: *Dein Antworten* → **Deine**. **Reverse case, 09-30:** *sind du fröhliches* → **bist du froh** — an ending added where none belongs. After `sein` / `werden` / `bleiben` the adjective is bare. Taught 09-26 with the minimal pair *Das Essen ist fertig* / *das fertige Essen* |
