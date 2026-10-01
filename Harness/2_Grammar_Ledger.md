@@ -50,7 +50,7 @@ Split by *cause*, because each cause needs a different drill. "You made a case m
 
 | Rule | T | Hits | Rec | Att | Rate | Streak | St | Last | My examples | The fix |
 |:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--|:--|:--|
-| `mit` takes Dativ | 1 | 2 | 2 | 3 | 67% | 1 | 🔴 | 2026-09-21 | *mit den Fähigkeit* → **der**; *mit viele Fälle* → **vielen** | `mit` is never Akkusativ. Feminine → **der**. Plural → **-en** on the determiner **and** `-n` on the noun. Got `mit seinen` right (S2) |
+| `mit` takes Dativ | 1 | 3 | 3 | 4 | 75% | 0 | 🔴 | 2026-09-30 | *mit den Fähigkeit* → **der**; *mit viele Fälle* → **vielen** | `mit` is never Akkusativ. Feminine → **der**. Plural → **-en** on the determiner **and** `-n` on the noun. Got `mit seinen` right (S2) 09-30: *mit meine Lehrerin* → **mit meiner** (streak broken again). |
 | `nach` takes Dativ | 1 | 2 | 2 | 2 | ? | 0 | 🔴 | 2026-09-23 | *nach das Arbeitad* → **nach dem Arbeitstag**; *Nach Arbeiten* → **Nach der Arbeit** | Always Dativ: **nach dem**, **nach der**. Before a whole clause the word is **nachdem** |
 | `zu` vs `nach` for destinations | 2 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-09-23 | *nazh Arbeiten* → **zur Arbeit** | **zu** for places and activities (**zur Arbeit**, **zur Schule**). **nach** only for cities, countries and **nach Hause** |
 
@@ -133,7 +133,7 @@ English prepositions almost never map 1:1, and the German preposition drags its 
 
 | Rule | T | Hits | Rec | Att | Rate | Streak | St | Last | The fix |
 |:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--|:--|
-| **V2 after a fronted phrase** 🏆 | 1 | 15 | 15 | 17 | 88% | 0 | 🔴 | 2026-09-26 | Comma does not save you — see [[4_Golden_Rules]]. S2: 6 hits (*Deshalb*, *Darum*, *Nach Arbeiten*, *Wenn…* ×2, *aber (however), … hat*); right in *Außerdem, kannst du* (only the comma was wrong — Tier 3) and *Wenn …, kannst du*. S3: +3 (#9, #14, #17) |
+| **V2 after a fronted phrase** 🏆 | 1 | 16 | 16 | 18 | 89% | 0 | 🔴 | 2026-09-30 | Comma does not save you — see [[4_Golden_Rules]]. S2: 6 hits (*Deshalb*, *Darum*, *Nach Arbeiten*, *Wenn…* ×2, *aber (however), … hat*); right in *Außerdem, kannst du* (only the comma was wrong — Tier 3) and *Wenn …, kannst du*. S3: +3 (#9, #14, #17) 09-30: *Weil …, wir könnte* → **können wir**. |
 | **`gerade` as filler** 🏆 | 1 | 7 | 7 | 7 | 100% | 0 | 🔴 | 2026-09-21 | Means "right now" only — see [[4_Golden_Rules]] |
 | "which is why" → `weshalb` | 1 | 2 | 2 | 2 | ? | 0 | 🔴 | 2026-09-21 | *welche ist weil* is not German. Use `weshalb` / `deshalb` / `darum` |
 | **"more and more X" → `immer` + comparative** 🏆 | 2 | 3 | 3 | 3 | 100% | 0 | 🔴 | 2026-09-23 | *mehr und mehr wichtig* → **immer wichtiger**; *mehr und mehr menschen* → **immer mehr Menschen**. Promoted — see [[4_Golden_Rules]] |

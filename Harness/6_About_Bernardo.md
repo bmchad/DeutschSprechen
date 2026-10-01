@@ -23,6 +23,7 @@ Two reasons this file exists:
 | Studies | **Elektrotechnik** — electrical engineering | 2026-09-26 |
 | Wants to work with | **Machines.** The reasoning: AI is very good at copying what already exists, so the work worth doing is the work that is hard to copy | 2026-09-26 |
 | Where | **Germany** — "simply the best place in the world" for working with machines | 2026-09-26 |
+| German teacher | Has a **Lehrerin** (female teacher). Goal: *finally* have a normal, nice conversation with her — today he speaks too slowly for that — and get to know her better | 2026-09-30 |
 
 ## People & places that keep coming up
 
@@ -58,3 +59,4 @@ Things he mentioned that were never followed up. Good openers for the next sessi
 - **Which machines?** Robots, motors, power systems? Asking *Mit welchen Maschinen?* forces `mit` + Dativ plural — *mit Robotern* (2026-09-26)
 - **Which city or company?** *In welcher Stadt?* forces `in` + Dativ
 - **Biggest advantage of Germany for him** — asked 2026-09-26, with `(advantage)` as the parenthetical for `der Vorteil`
+- **His teacher** — since when, and what would he talk with her about? *Seit wann lernst du bei ihr?* forces `seit` / `bei` + Dativ (2026-09-30)
