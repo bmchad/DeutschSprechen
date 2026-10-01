@@ -62,6 +62,7 @@ Split by *cause*, because each cause needs a different drill. "You made a case m
 | Rule | T | Hits | Rec | Att | Rate | Streak | St | Last | My examples | The fix |
 |:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--|:--|:--|
 | **`in` = static location → Dativ** 🏆 | 1 | 7 | 7 | 8 | 88% | 0 | 🔴 | 2026-10-01 | *in viele anders Orten* → **in vielen**; *An schule* → **In der Schule**; *ins Büro* → **im Büro**; 09-30: *in das repo* → **im Repo**, *zu inner ein folder* → **in einem Ordner**; 10-01: *in chat* → **im Chat**, *in Markdown-Datei* → **in einer** | Promoted — see [[4_Golden_Rules]]. No movement → Dativ. `in **der** Schule`, `in **vielen** Bereichen`, `im Büro`. Got `in Unternehmen` right |
+| `in` = state change / motion → Akkusativ | 1 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-10-01 | *in obsidian modus* → **in den Obsidian-Modus** | Changing state or mode is "movement" into it (*wohin?*). `der Modus` → `in den Modus` |
 | `auf` = static → Dativ | 1 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-09-23 | *über das Tisch* → **auf dem Tisch** | Lying on a surface = **auf** + Dativ (*wo?*). `über` = above it, not touching |
 
 ### 1d. Object roles (Nom subject / Akk direct / Dativ indirect)
@@ -118,6 +119,7 @@ English prepositions almost never map 1:1, and the German preposition drags its 
 | Looks like | Actually means | "That word" in German | T | Hits | Att | St | Last |
 |:--|:--|:--|:-:|:-:|:-:|:-:|:--|
 | **pasta** 🇵🇹 | folder → **der Ordner, die Ordner** | ⚠️ EN "paste" = `einfügen` — a **three-way trap**: PT *pasta* → EN "paste" → wrong German. His only Portuguese-source false friend so far. **`Ordner` missed a third time on 09-30** — wrote bare English *folder*, no gap | 1 | 3 | 3 | 🔴 | 2026-09-30 |
+| putzen | to clean | versetzen / wechseln (to put) | 1 | 1 | 1 | 🔴 | 2026-10-01 |
 | bekommen | to receive | werden (to become) | 1 | | | | |
 | **also** 🏆 | so / therefore | auch (also) | 1 | 4 | 4 | 🔴 | 2026-09-23 |
 | Gift | poison | Geschenk (gift) | 1 | | | | |
@@ -133,6 +135,7 @@ English prepositions almost never map 1:1, and the German preposition drags its 
 
 | Rule | T | Hits | Rec | Att | Rate | Streak | St | Last | The fix |
 |:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--|:--|
+| "leave" (in it) → `darin lassen` | 2 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-10-01 | *oder lassen* → **oder darin lassen** | German needs the explicit prepositional adverb `darin` if you mean "leave it in that state/place" |
 | **V2 after a fronted phrase** 🏆 | 1 | 17 | 17 | 19 | 89% | 0 | 🔴 | 2026-09-30 | Comma does not save you — see [[4_Golden_Rules]]. S2: 6 hits (*Deshalb*, *Darum*, *Nach Arbeiten*, *Wenn…* ×2, *aber (however), … hat*); right in *Außerdem, kannst du* (only the comma was wrong — Tier 3) and *Wenn …, kannst du*. S3: +3 (#9, #14, #17) 09-30: *Weil …, wir könnte* → **können wir**. *jetzt ich … kennen* → **jetzt kenne ich**. |
 | **`gerade` as filler** 🏆 | 1 | 7 | 7 | 7 | 100% | 0 | 🔴 | 2026-09-21 | Means "right now" only — see [[4_Golden_Rules]] |
 | "which is why" → `weshalb` | 1 | 2 | 2 | 2 | ? | 0 | 🔴 | 2026-09-21 | *welche ist weil* is not German. Use `weshalb` / `deshalb` / `darum` |
@@ -178,6 +181,7 @@ English prepositions almost never map 1:1, and the German preposition drags its 
 
 | Rule | T | Hits | Rec | Att | Rate | Streak | St | Last | The fix |
 |:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--|:--|
+| `wie` vs `was` ("how" vs "what") | 1 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-10-01 | *was kann ich* → **wie kann ich** | "How" = `wie`. "What" = `was` |
 | Formal vs Informal (`Sie` vs `du`) | 2 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-10-01 | *lesen Sie* → **lies** | We are using informal `du`. Imperative for `lesen` is `lies` |
 | `welch-` vs `was` for "which noun" | 2 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-10-01 | *was Modus* → **in welchem Modus** | "What mode" = "which mode" = `welch-` + ending. Also needs preposition `in` + Dativ |
 | Simple past of `sein` (`waren`) | 1 | 1 | 1 | 1 | ? | 0 | 🔴 | 2026-10-01 | *wurden ... gewesen* → **waren** | Don't mix passive `wurden` with perfect `gewesen` for "were" |
