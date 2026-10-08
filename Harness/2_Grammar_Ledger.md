@@ -88,6 +88,7 @@ Not case errors. Logged here only to keep the diagnosis honest — the real reco
 | der Arbeitstag | 2 | 2 | 2026-09-23 | *nach das Arbeitad* — thought neuter; then *dein Arbeittag* as the object, correct for a neuter | nach **dem** Arbeitstag · **deinen** Arbeitstag. Case wrong too in the first — see `nach` in 1b. The second hit moved here from masculine Akk `-n` in S3; the neuter belief is unconfirmed |
 | die Work-Life-Balance | 1 | 1 | 2026-09-23 | *ein gut … (balance)* — Nominativ was right | **eine** gute Work-Life-Balance. The noun itself was a gap |
 | der Ort | 1 | 1 | 2026-09-26 | *die besser Ort* — Nominativ right, thought feminine | **der** beste Ort |
+| die Tür | 2 | 2 | 2026-10-08 | *das Tür* ×2 in one text — neuter default, this time on a feminine | **die** Tür. Same pattern as *Antwort* |
 | der Skill (oder die Datei) | 3 | 4 | 2026-10-01 | *das skill* 09-29 and 09-30; 10-01: *das skill.md* — defaults to neuter | **den** Skill / **die** SKILL.md. ⚠️ **Pattern across this table: masculine/feminine nouns keep getting `das`** — Computer, Tisch, Arbeitstag, Skill. His default for an unsure gender looks like neuter, probably English *it*. Neighbouring neuters (*das Repo*, *das Plugin*) likely pull it too |
 
 ---
