@@ -1,14 +1,12 @@
 ---
 tags: [generated]
-updated: 2026-09-26
-next_session: 4
+updated: 2026-10-08
+next_session: 5
 ---
 
 # Review Queue
 
-Regenerated at the end of every session. Feeds the next warm-up and the English parentheticals in §9.
-
-Do not edit by hand — rebuilt from [[2_Grammar_Ledger]] and [[3_Vocab_and_Nuance]].
+Regenerated from [[2_Grammar_Ledger]] and [[3_Vocab_and_Nuance]] at the start of Session 5 (Session 4 ended without a regeneration). Feeds the warm-up and the English parentheticals in §9.
 
 ---
 
@@ -16,42 +14,36 @@ Do not edit by hand — rebuilt from [[2_Grammar_Ledger]] and [[3_Vocab_and_Nuan
 
 | # | Rule | Hits | Rec | How it gets drilled |
 |:--:|:--|:-:|:-:|:--|
-| 1 | **Connectors → verb position** — 🏆 *The Comma Does Not Save You* (V2) + 🏆 *`weil` Kicks the Verb to the End* | 15 · 12 | 15 · 12 | Session 3's big pattern: six misses, all from sorting a connector into the wrong row. Drill with the connector sorter in [[7_Techniques]] — one connector, one sentence, *where does the verb go?* Start with `da` (= there / = since) |
-| 2 | 🏆 **No English `-s` on German plurals** | 7 | 7 | Newly promoted. Nouns with their plurals, inside real sentences: *Ding*, *Maschine*, *Freund*, *Kollege* |
-| 3 | 🏆 **Dativ plural `-n`**, with `mit` | 3 | 3 | Newly promoted. *Mit welchen Maschinen?* → *mit Robotern*, *mit Motoren* |
-| 4 | **Verb ending matches the subject** (T2) | 7 | 7 | 100% rate, and at the Tier 2 repair-turn threshold. `sind` went to three singular subjects in S3; `-st` leaks onto `man` / `das` |
-| 5 | 🏆 **Static → Dativ**: `in`, `auf`, and `liegen` / `legen` | 3 · 1 | 3 · 1 | *wo?* vs *wohin?* — *Der Laptop liegt auf dem Tisch* / *Ich lege ihn auf den Tisch* |
+| 1 | 🏆 **V2 after a fronted phrase / clause** | 17 | 17 | Still the top error, but the **repair turn fixed it first try three times** on 09-30. He knows it — attention is the bottleneck. Warm-ups that front a time word: *Morgen …*, *Jetzt …*, *Wenn …,* |
+| 2 | 🏆 **Static → Dativ** (`in`, `auf`) | 5 | 5 | *im Repo*, *in einem Ordner*. Minimal pair *legen / liegen* — he literally watched files being moved |
+| 3 | 🏆 **`um … zu`** for purpose | 7 | 7 | `um` still goes missing. Pair with `damit` (different subject) |
+| 4 | **`mit` + Dativ** | 3 | 3 | Streak broken twice (*mit meine Lehrerin*). Feminine Dativ = `meiner` |
+| 5 | **Gender: neuter default** | — | — | `das` given to Computer, Tisch, Arbeitstag, Skill, *and* Antwort. Diagnostic only — but name the gender every time a noun is new |
 
 ---
 
 ## Drill next: vocab
 
-Highest-value misses. These become the English parentheticals in the next §9 question.
-
-| # | English | German | Miss | Status |
+| # | English | German | Miss | Note |
 |:--:|:--|:--|:-:|:--|
-| 1 | electrical engineering | **die Elektrotechnik** · the person: **der Ingenieur, die Ingenieure** | 1 | 🔴 — Bernardo's own field; wrote *Eletrotelnich Engeneur* |
-| 2 | machine | **die Maschine, die Maschinen** | 2 | 🔴 — wrote *Machines* ×2 |
-| 3 | thing | **das Ding, die Dinge** | 3 | 🔴 — wrote *dings* ×3 |
-| 4 | to copy / replicate | **kopieren** · **nachmachen** | 3 | 🔴 — gap ×3 |
-| 5 | the most (+ adjective) | no "most" — **-sten**: *die schwierigsten Dinge*, *am schwersten* · quantity: **die meisten** | 1 | 🔴 — wrote *das meinst schlecht* for "the most difficult" |
+| 1 | to improve | **verbessern** | 3 | Closest yet: *bessern* |
+| 2 | folder / file | **der Ordner** / **die Datei** | 3 | Also mixed with *die Ordnung* |
+| 3 | for (a duration, up to now) | **seit** + Dativ | 1 | *seit drei Monaten* |
+| 4 | to move (country) | **ziehen / umziehen** | 1 | `ändern` doing a third job |
+| 5 | probably | **wahrscheinlich** | 1 | Collided with *eigentlich* |
 
 ---
 
 ## Almost solid
 
-🟡 learning — close to 🟢, not there yet.
-
-- **Honest gaps instead of invented words** — zero inventions in S3, six clean gaps. But the gaps followed an explicit reminder, so they don't count toward *fixed*. **Next session: don't remind.** Then each gap counts as unprompted.
-- `verwenden` / `benutzen` — right 3 of 3 (S1).
+- **`wissen` vs `kennen`** — both right in one message (09-30). One more clean session → 🟢.
+- **Verb-final in subordinate clauses** — 🟡, streak building; right unprompted in several `wenn` / `dass` clauses on 09-30.
+- **Honest gaps** — consistent, unprompted.
 
 ---
 
 ## Carried over
 
-- ⏳ **Waiting on Bernardo:** was S3's `Da,` (= "so") Portuguese *daí*? If yes, log it in 2b as the second Portuguese false friend, next to *pasta*.
-- ⏳ **Open §9 question:** *Mit welchen Maschinen möchtest du am liebsten arbeiten? Und was ist für dich der größte (advantage) von Deutschland?*
-- **The interrupt was offered in S3** for connectors (*Drill*) — no answer yet. Don't offer it twice in the same session.
-- **Diagnose gender before case.** S2's *dein Komputer* / *dein Arbeittag* were neuter-gender slips, not a missing `-n`. Watch `der Computer` and `der Arbeitstag`.
-- **Techniques on trial, no verdict yet:** minimal pair, connector sorter — see [[7_Techniques]].
-- **The repair turn worked** on its second trial (S3, verb-final after `weil`).
+- ⏳ **Open §9:** *Sagst du zu ihr »du« oder »Sie«?* — and he wants to ask his teacher *Warum sind Sie nach Kolumbien gezogen?*
+- ⏳ **Listening** is his self-reported weakest skill, never tested. Try a reverse test (give German, ask for meaning).
+- **Techniques on trial:** minimal pair, connector sorter (no verdict). **Repair turn:** 3 successes in a row.
