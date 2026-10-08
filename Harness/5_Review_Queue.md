@@ -45,8 +45,9 @@ Regenerated from [[2_Grammar_Ledger]] and [[3_Vocab_and_Nuance]] at the start of
 ## Carried over
 
 - ⏳ **Open §9:** *Sagst du zu ihr »du« oder »Sie«?* — and he wants to ask his teacher *Warum sind Sie nach Kolumbien gezogen?*
-- ⏳ **Open §9 (Session-3 thread, 10-08):** *Was interessiert dich (the most) — Windkraft, Elektroautos oder Roboter? Und warum?* Two checks pending: *petrol* = oil industry or petrol engines? · *zu Deutschland* = "in", or the "to" of "want to"?
-- **New 1d row, watch it:** `einen` on a subject (10-08) — the masculine-Akkusativ Golden Rule over-firing. Ask "who does the verb?"
+- ⏳ **Open §9 (Session-3 thread, 10-08):** *Wann möchtest du nach Deutschland (move): nach dem Bachelor oder nach dem Master? Und warum?* Unanswered checks, let go: *petrol*, *zu Deutschland*, *(explored)* = PT *explorado*?
+- **1d row at Rec 2 — repair-eligible next time:** `einen` on a subject and on `als` + subject (10-08 ×2) — the masculine-Akkusativ Golden Rule over-firing. Hint: "who does the verb?"
+- **`warum` / `weil`** mixed again (10-08; 09-29) — Portuguese *por que* / *porque*.
 - **V2 interrupt offered** in the Session-3 thread (10-08) — don't offer it again this session.
 - ⏳ **Listening** is his self-reported weakest skill, never tested. Try a reverse test (give German, ask for meaning).
 - **Techniques on trial:** minimal pair, connector sorter (no verdict). **Repair turn:** 3 successes in a row.
