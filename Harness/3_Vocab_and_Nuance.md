@@ -50,9 +50,11 @@ Maintained by the tutor. Feeds [[5_Review_Queue]] and the §8 example sentences.
 | exercise (the activity) | **der Sport** (no pl.) | 1 | 1 | 0 | 🔴 | 2026-09-23 | Was left as `(Exercise)`. Verb: *Sport machen* (everyday) / *Sport treiben*. ⚠️ `die Übung` = a drill or school exercise, not a workout |
 | working hours | **die Arbeitszeit, die Arbeitszeiten** | 1 | 1 | 0 | 🔴 | 2026-09-23 | Wrote *Arbeit-Stunden*. Linking `-s-` again, as in *Arbeitstag*. `die Stunde` = a 60-minute hour, not a schedule |
 | end of the workday | **der Feierabend, die Feierabende** | 1 | 1 | 0 | 🔴 | 2026-09-23 | Wrote *nach das Arbeitad endet*. `Feier` (celebration) + `Abend` (evening) = the free time after work, whatever the hour |
-| electrical engineering | **die Elektrotechnik** (no pl.) · the person: **der Ingenieur, die Ingenieure** | 1 | 1 | 0 | 🔴 | 2026-09-26 | Wrote *Eletrotelnich Engeneur* — the person, not the field: *Ich studiere Elektrotechnik*. A job takes no article: *Ich werde Ingenieur* |
-| machine | **die Maschine, die Maschinen** | 2 | 2 | 0 | 🔴 | 2026-09-26 | Wrote *Machines* ×2 — English spelling and `-s`. Feminine in `-e` → plural `-n`, almost always |
-| thing | **das Ding, die Dinge** | 3 | 3 | 0 | 🔴 | 2026-09-26 | Wrote *dings* ×3 — English `-s`. Dat. pl.: *mit einfachen Ding**en***. ⚠️ Colloquial `das Dings` = "thingy", a singular |
+| electrical engineering | **die Elektrotechnik** (no pl.) · the person: **der Elektroingenieur, die Elektroingenieure** | 2 | 2 | 0 | 🔴 | 2026-10-08 | Wrote *Eletrotelnich Engeneur* — the person, not the field: *Ich studiere Elektrotechnik*. A job takes no article: *Ich werde Ingenieur*. 10-08: *eletrotechnist* — derived the person from the field, a real German move, but ⚠️ **der Elektrotechniker** is a *technician* (vocational). With a degree: **Elektroingenieur**. `Elektro` with **k** — *eletro* is Portuguese |
+| machine | **die Maschine, die Maschinen** | 2 | 3 | 1 | 🟡 | 2026-10-08 | Wrote *Machines* ×2 — English spelling and `-s`. Feminine in `-e` → plural `-n`, almost always. ✓ 10-08 *maschinen*: `sch` and plural `-n` right, unprompted |
+| thing | **das Ding, die Dinge** | 5 | 5 | 0 | 🔴 | 2026-10-08 | Wrote *dings* ×3 — English `-s`. Dat. pl.: *mit einfachen Ding**en***. ⚠️ Colloquial `das Dings` = "thingy", a singular. 10-08: *dings* ×3 (translation), then *von Dinges* — a real form, but it's the Genitiv **singular** (*des Dinges*). Plural: **die Dinge**; after `von`: **von Dingen** |
+| no idea | **die Ahnung, die Ahnungen** · *keine Ahnung* | 2 | 2 | 0 | 🔴 | 2026-10-08 | Wrote *kein anung* 09-30 and *Kein anung* 10-08. `-ung` → feminine (free gender rule) → **keine**. Spelled with **h**: *Ah-nung* (the `h` makes the `a` long) |
+| suggestion | **der Vorschlag, die Vorschläge** | 1 | 1 | 0 | 🔴 | 2026-10-08 | Gap `(sugestion)` — Portuguese spelling of *sugestão*. `vor` + `schlagen` = "to put forward". ⚠️ German **die Suggestion** exists but means manipulation, as in hypnosis. Natural: *Ich bin offen für Vorschläge* |
 
 ---
 
@@ -85,6 +87,7 @@ Record the **case it governs** and any fixed preposition — that is where Engli
 | to clear one's head | **den Kopf freibekommen** | Akk | 1 | 1 | 0 | 🔴 | 2026-09-23 | Wrote *zu einige ein Manns kopf*. **B1+** idiom — A2 route: *Das hilft gegen Stress* (`gegen` + Akk). Body parts take the article, not a possessive: **den** Kopf |
 | to replicate / copy | **kopieren** / **nachmachen** | Akk | 3 | 3 | 0 | 🔴 | 2026-09-26 | Left as `(replicate)` ×3. `kopieren` = English *copy* · native `nachmachen` is separable: *KI macht das **nach*** |
 | to exist | **existieren** / **es gibt** | — · `es gibt` + **Akk** | 1 | 1 | 0 | 🔴 | 2026-09-26 | Left as `(exist)`. `existieren` takes no object · native **es gibt** + Akk: *Es gibt **einen** Grund* |
+| to accept | **annehmen** (separable) / **akzeptieren** | Akk | 1 | 1 | 0 | 🔴 | 2026-10-08 | Gap `(accept)`. *Ich **nehme** den Vorschlag **an*** · `akzeptieren` = PT *aceitar*. For suggestions, natives say **Ich bin offen für Vorschläge** (`offen für` + Akk) |
 | to use | **verwenden / benutzen** | Akk | 0 | 3 | 0 | 🟡 | 2026-09-21 | Got this right every time |
 
 ---
@@ -101,6 +104,8 @@ Record the **case it governs** and any fixed preposition — that is where Engli
 | longer (time) | **länger** | 1 | 1 | 0 | 🔴 | 2026-09-23 | Wrote *mehr schlafen* → **länger schlafen**. Time → `länger` (from `lang`) · amount → `mehr` |
 | something else | **etwas anderes** | 1 | 1 | 0 | 🔴 | 2026-09-23 | Wrote *etwa anders*. ⚠️ `etwa` = approximately (see *some vs. approx*) · `anders` = differently |
 | difficult | **schwer** / **schwierig** | 1 | 1 | 0 | 🔴 | 2026-09-26 | Left as `(dificult)` after a guess of *schlecht* (= bad). `schwer` ↔ `leicht` = difficult ↔ easy, and also heavy ↔ light. Superlative: **am schwersten** / **die schwierigsten** |
+| sure / certain | **sicher** | 1 | 1 | 0 | 🔴 | 2026-10-08 | Gap `(certain)`. Natives add a Dativ **mir**: *Ich bin **mir** nicht sicher* (≈ "sure to myself"). ⚠️ `sicher` also means **safe** — *Ich bin nicht sicher* alone can sound like "I'm not safe" |
+| Brazilian | **brasilianisch** · the country **Brasilien** · the person **der Brasilianer, die Brasilianer** | 1 | 1 | 0 | 🔴 | 2026-10-08 | Wrote *brazilien*. German spells it with **s** (EN *z*, PT *s*). Before a noun it needs an ending: *ein brasilian**ischer** Ingenieur*, *eine brasilian**ische** Firma* |
 
 ---
 
@@ -155,3 +160,4 @@ Not drilled — recorded so case errors can be diagnosed correctly. See [[0_Star
 | table | **der Tisch, die Tische** | *das* — wrote *über das Tisch* | 1 | 2026-09-23 |
 | work-life balance | **die Work-Life-Balance** (no pl.) | masc./neut. — wrote *ein gut arbeit-leben* | 1 | 2026-09-23 |
 | place | **der Ort, die Orte** | *die* — wrote *die besser Ort* | 1 | 2026-09-26 |
+| no idea | **die Ahnung, die Ahnungen** | masc./neut. — wrote *kein anung* twice (09-30, 10-08). `-ung` is always feminine | 2 | 2026-10-08 |

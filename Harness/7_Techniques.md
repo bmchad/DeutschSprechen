@@ -97,6 +97,8 @@ One table, one question: *where does the verb go?*
 
 **Status:** flagged as an experiment. No verdict yet.
 
+**Evidence, 2026-10-08 — the sort works, the boundary doesn't.** `da` = since went into row 2 twice with the verb last (*Da ich … möchte*, *… machen kann*) — the same word that failed twice on 09-26, when the sorter was invented. `aber` kept row-0 order. But in both places the **main clause after a row-2 clause** still opened with its subject (*…, ich (accept)*), and *Jetzt ich habe* missed row 1. So the sorter answers "where does the verb go *in this clause*?" and leaves the next clause unasked. Candidate extension: after a row-2 clause, the whole clause is position 1 — *[Da … möchte], **bin** ich*.
+
 ## 🧪 Proposed, not yet tried
 
 ### Reverse test

@@ -1,6 +1,6 @@
 ---
 tags: [profile]
-updated: 2026-09-26
+updated: 2026-10-08
 ---
 
 # About Bernardo
@@ -24,6 +24,7 @@ Two reasons this file exists:
 | Wants to work with | **Machines.** The reasoning: AI is very good at copying what already exists, so the work worth doing is the work that is hard to copy | 2026-09-26 |
 | Where | **Germany** — "simply the best place in the world" for working with machines | 2026-09-26 |
 | German teacher | Has a **Lehrerin** (female teacher). Goal: *finally* have a normal, nice conversation with her — today he speaks too slowly for that — and get to know her better | 2026-09-30 |
+| Machines, more specifically | Thinking about machines for the **oil industry** (*petrol-maschinen* — ⏳ asked whether he means the oil industry or petrol engines), but **not sure yet**. Asked *me* for suggestions of what a Brazilian electrical engineer can do in Germany | 2026-10-08 |
 | Teacher, more | Learning with her for **three months**. She is (as he puts it) a native **German-Russian** who has **moved to Colombia**. He wants to ask her *why* — but lacks the words, and says his **listening is the weak point** | 2026-09-30 |
 
 ## People & places that keep coming up
@@ -57,7 +58,8 @@ Good sources of follow-up questions. Note anything that produced a long, energet
 Things he mentioned that were never followed up. Good openers for the next session.
 
 - ~~Where exactly, and doing what?~~ Answered the same day: Germany, with machines.
-- **Which machines?** Robots, motors, power systems? Asking *Mit welchen Maschinen?* forces `mit` + Dativ plural — *mit Robotern* (2026-09-26)
+- ~~**Which machines?**~~ Answered 10-08: maybe the oil industry, not sure.
+- **Which field interests him most?** Asked 10-08: *Was interessiert dich (the most) — Windkraft, Elektroautos oder Roboter? Und warum?* — forces `am meisten` and a `weil` clause
 - **Which city or company?** *In welcher Stadt?* forces `in` + Dativ
 - **Biggest advantage of Germany for him** — asked 2026-09-26, with `(advantage)` as the parenthetical for `der Vorteil`
 - **His teacher** — since when, and what would he talk with her about? *Seit wann lernst du bei ihr?* forces `seit` / `bei` + Dativ (2026-09-30)
